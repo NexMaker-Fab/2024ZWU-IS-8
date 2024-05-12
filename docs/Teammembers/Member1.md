@@ -3,8 +3,9 @@
  ## BASIC INFORMATION
 
 - ENGLISH NAME：Rain
+- HOBBY：Traveling & Llistening music
 
- ## PERSONAL PROFILE
+## PERSONAL PROFILE
 
 Rain is a cheerful and studious girl. She loves traveling and listening to music.
 She is mainly responsible for the construction of web pages in the team.

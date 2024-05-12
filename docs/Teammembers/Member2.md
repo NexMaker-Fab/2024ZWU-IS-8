@@ -3,11 +3,12 @@
  ## BASIC INFORMATION
 
 - ENGLISH NAME：Mary
+- HOBBY：Singing & Dancing
 
- ## PERSONAL PROFILE
+## PERSONAL PROFILE
 
-Mary具有丰富的专业技能和年轻的活力。她在现有的角色中一直表现出色，并在团队中发挥了关键角色。她的组织能力和沟通技巧使她在过去的项目中取得了巨大成功。
+Mary is a cheerful, imaginative person who is actively involved in team work.                                   
+ 
+ ## CONTACT INFORMATION
 
- ## 联系方式
-
-- Email: mary@example.com
+- Email: 1060554407@qq.com

@@ -1,9 +1,9 @@
-- Team introduce
+-  [Team introduce](Team-introduce/Team-introduce.md)
 - Team members
   - [Member1](Teammembers/Member1.md)
   - [Member2](Teammembers/Member2.md)
-  - [Member3]()
-  - [Member4]()
+  - [Member3](Teammembers/Member3.md)
+  - [Member4](Teammembers/Member4.md)
   - [Member5]()
 - Daily homework
   - [1. how to build web](class/1pm/1pm-web.md)
