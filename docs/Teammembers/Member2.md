@@ -1,14 +1,14 @@
- # 卓甜甜
+# 卓甜甜
 
- ## BASIC INFORMATION
+## BASIC INFORMATION
 
-- ENGLISH NAME：Mary
-- HOBBY：Singing & Dancing
+- <font size="4">ENGLISH NAME：Mary</font>
+- <font size="4">HOBBY：Singing & Dancing</font>
 
 ## PERSONAL PROFILE
 
-Mary is a cheerful, imaginative person who is actively involved in team work.                                   
- 
- ## CONTACT INFORMATION
+<font size="4">Mary is a cheerful, imaginative person who is actively involved in team work.</font>
 
-- Email: 1060554407@qq.com
+## CONTACT INFORMATION
+
+- <font size="4">Email: 1060554407@qq.com</font>

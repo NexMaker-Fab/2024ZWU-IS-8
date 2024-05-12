@@ -1,15 +1,17 @@
- # 张韶轩
+# 张韶轩
 
- ## BASIC INFORMATION
+## BASIC INFORMATION
 
-- ENGLISH NAME：Rain
-- HOBBY：Traveling & Llistening music
+- <font size="4">ENGLISH NAME：Rain</font>
+- <font size="4">HOBBY：Traveling & Llistening music</font>
+
 
 ## PERSONAL PROFILE
 
-Rain is a cheerful and studious girl. She loves traveling and listening to music.
-She is mainly responsible for the construction of web pages in the team.
+<font size="4">Rain is a cheerful and studious girl. She loves traveling and listening to music.
+She is mainly responsible for the construction of web pages in the team.</font>
 
- ## CONTACT INFORMATION
 
-- Email: 1730787879@qq.com
+## CONTACT INFORMATION
+
+- <font size="4">Email: 1730787879@qq.com</font>

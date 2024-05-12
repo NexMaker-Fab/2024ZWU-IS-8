@@ -1,16 +1,16 @@
 # 陈晴钰
 
- ## BASIC INFORMATION
+## BASIC INFORMATION
 
-- ENGLISH NAME：Ivy
-- HOBBY：Writing & Photography
+- <font size="4">ENGLISH NAME：Ivy</font>
+- <font size="4">HOBBY：Writing & Photography</font>
 
 ## PERSONAL PROFILE
 
-Ivy is a kind and reliable girl. She loves Writing and Photography.
-She is mainly responsible for the text writing and communication in the team.
+<font size="4">Ivy is a kind and reliable girl. She loves Writing and Photography.
+She is mainly responsible for the text writing and communication in the team.</font>
 
 ## CONTACT INFORMATION
 
-- Email: 641293915@qq.com
-- [GitHub](https://github.com/2022015544/Ivy-yu/)
+- <font size="4">Email: 641293915@qq.com</font>
+- <font size="4">[GitHub](https://github.com/2022015544/Ivy-yu/)</font>

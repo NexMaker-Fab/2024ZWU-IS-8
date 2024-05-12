@@ -1,14 +1,16 @@
 # 陈羽朵
 
- ## BASIC INFORMATION
+## BASIC INFORMATION
 
-- ENGLISH NAME：Jessica
-- HOBBY：Calligraphy & Travelling
+- <font size="4">ENGLISH NAME：Jessica</font>
+- <font size="4">HOBBY：Calligraphy & Traveling</font>
+
 
 ## PERSONAL PROFILE
 
-Jessica makes Arduino applying with her friend Ivy.We are very niubility.
+<font size="4">Jessica makes Arduino applying with her friend Ivy. We are very niubility.</font>
 
- ## CONTACT INFORMATION
 
-- Email: hoya_2022@qq.com
+## CONTACT INFORMATION
+
+- <font size="4">Email: hoya_2022@qq.com</font>
