@@ -1,3 +1,5 @@
+<div style="float: right; margin-left: 500px;"><img width="200" src="https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/f01e0df987d35c9d4a48c9a76bff612d84ee472c/images/%E9%99%88%E6%99%B4%E9%92%B0.jpg"></div>
+
 # 陈晴钰
 
 ## BASIC INFORMATION
