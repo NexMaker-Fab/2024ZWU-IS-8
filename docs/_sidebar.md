@@ -7,7 +7,7 @@
   - [Member5](Teammembers/Member5.md)
 - Daily homework
   - [1. how to build web](homework/how-to-build-web.md)
-  - [2. arduino basic]()
+  - [2. arduino basic](homework/arduino-basic.md)
   - [3. CAD]()
   - [4. 3D printing]()
 - Final project
