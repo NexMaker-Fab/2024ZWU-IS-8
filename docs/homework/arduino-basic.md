@@ -4,6 +4,7 @@
 
 <img width="500" src="https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/48782181e319d5df3aa8858750d1618614e6dace/images/Arduino/%E9%A6%99%E6%A9%99%E6%B4%BE1.png"></div>
 
+<img width="500" src="https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/750b55de1beb057ed5613363be4801b12fdc5296/images/Arduino/%E9%A6%99%E6%A9%99%E6%B4%BE2.png"></div>
 
 ###  相关性能
 - <font size="4"><strong>香橙派等开源硬件的用途：</strong></font>
