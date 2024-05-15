@@ -1,11 +1,13 @@
 body {
-    background-color: #030e1b;
-    color: #ffffff;
-   
+  background-color: #030e1b;
+  color: #ffffff; /* 正文部分的字体颜色 */
 }
-  
-  .sidebar {
-    background-color: #e19cab;
-    color: #030e1b;
-  }
-  
+
+h1, h2, h3 {
+ color: #c62f50;
+}
+
+.sidebar {
+  background-color: #e19cab;
+  color: #030e1b;
+}

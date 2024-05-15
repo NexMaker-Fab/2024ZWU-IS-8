@@ -1,6 +1,5 @@
-# 怎样建设一个网站
-
-## 1. 准备
+<h1 style="color: #e19cab;">怎样建设一个网站</h1>
+<h2 style="color: #e19cab;">1. 准备</h2>
   
 我们将使用以下工具来构建我们自己的网页：
 
@@ -12,9 +11,9 @@
 - 撰写我们文档的Markdown语言。
 - 图片上传服务，我们使用PicGo将我们的图片存储在云端（例如在GitLab），并在标记文档中使用。
 
-## 2. 网页设置
+<h2 style="color: #e19cab;">2. 网页设置</h2>
 
-### 创建GitHub存储库
+<h3 style="color: #e19cab;">创建GitHub存储库</h3>
 
 首先，你需要在GitHub上创建一个新的存储库来托管你的网站。
 
@@ -26,7 +25,7 @@
 4. 设置页面为空。单击存储库的设置，并选择左侧的“page”。选择“main”和“/root”并保存。上面的链接允许您查看该页。  
     ![图片3](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/a876c079a624d3ce907da503803aa2150b97cf8d/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/3.png)
 
-### 邀请团队成员
+<h3 style="color: #e19cab;">邀请团队成员</h3>
 
 1. 打开创建的存储库。    
    ![图片4](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/4.png)
@@ -34,7 +33,7 @@
    ![图片5](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/5.png)  
    ![图片6](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/6.png)
 
-### 网络上传
+<h3 style="color: #e19cab;">网络上传</h3>
 
 将存储库克隆到GitHub。
 
@@ -42,7 +41,7 @@
    ![图片7](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/7.png)  
    ![图片8](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/8.png)
 
-### Github桌面登录
+<h3 style="color: #e19cab;">Github桌面登录</h3>
 
 1. 找到您的存储库，单击打开“在Visual Studio Code中打开”，在Visual Studio Code中输入新内容并保存。  
    ![图片9](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/9.png)
@@ -50,7 +49,7 @@
    ![图片10](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/10.png)  
    ![图片11](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/11.png)
 
-### Docsify
+<h3 style="color: #e19cab;">Docsify</h3>
 
 打开VScode，新建终端。  
 ![图片12](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/12.png)
@@ -68,7 +67,7 @@
 6. write document
 7. Save all document
 
-### 图片上传
+<h3 style="color: #e19cab;">图片上传</h3>
 
 1. 安装Picgo
 2. 在GitHub上新建图片仓库

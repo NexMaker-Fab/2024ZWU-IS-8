@@ -3,13 +3,13 @@
 but we are always curious, learning spirit and our own unique personality!</p>
 <p style="font-size:30px;">Let's always keep it enthusiastic !</p>
 
-# Team’ name
+<h1 style="color: #e19cab;">Team’ name</h1>
 <p style="font-size:20px;">Because the five of us are the first time to contact the relevant knowledge of this course, at the beginning all feel stupid, in the Chinese "笨" and BUN pronunciation is similar, so named BUNBUN.</p>
 
 
 
 
-# Logo inspiration
+<h1 style="color: #e19cab;">Logo inspiration</h1>
 <img src="https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/7a18b93ef8f24a06ee2b7e4459f9f88af37e92df/images/WechatIMG357.jpg" alt="Group Image" width="500" style="display:block;margin:auto;">
 
 <p style="font-size:20px;">Image design: 
