@@ -4,7 +4,7 @@
 
 ## BASIC INFORMATION
 
-<img width="200" src="https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/f01e0df987d35c9d4a48c9a76bff612d84ee472c/images/%E5%BC%A0%E9%9F%B6%E8%BD%A9.jpeg"></div>
+<img width="200" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/f01e0df987d35c9d4a48c9a76bff612d84ee472c/images/%E5%BC%A0%E9%9F%B6%E8%BD%A9.jpeg"></div>
 
 - <font size="4">ENGLISH NAME：Rain</font>
 - <font size="4">HOBBY：Traveling & Llistening music</font>
