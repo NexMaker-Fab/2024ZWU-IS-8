@@ -1,10 +1,10 @@
 <h1 style="color: #e19cab;">Arduino 基础</h1>
 
-<h2 style="color: #e19cab;">1. 学习开源硬件 -- 香橙派 5PRO</h2>
+<font size="5"><h2 style="color: #e19cab;">1. 学习开源硬件 -- 香橙派 5PRO</h2></font>
 
-<img width="500" src="https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/48782181e319d5df3aa8858750d1618614e6dace/images/Arduino/%E9%A6%99%E6%A9%99%E6%B4%BE1.png"></div>
+<img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/48782181e319d5df3aa8858750d1618614e6dace/images/Arduino/%E9%A6%99%E6%A9%99%E6%B4%BE1.png"></div>
 
-<img width="500" src="https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/750b55de1beb057ed5613363be4801b12fdc5296/images/Arduino/%E9%A6%99%E6%A9%99%E6%B4%BE2.png"></div>
+<img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/750b55de1beb057ed5613363be4801b12fdc5296/images/Arduino/%E9%A6%99%E6%A9%99%E6%B4%BE2.png"></div>
 
 <h3 style="color: #e19cab;"> 相关性能</h3>
 - <font size="4"><strong>香橙派等开源硬件的用途：</strong></font>
@@ -24,7 +24,7 @@ Orange Pi是一种单板计算机，它的设计目标是为创客、硬件爱�
 
 总之，Orange Pi的用途是多种多样的，它的用途取决于你的需求和你的想象力。
 
-<h2 style="color: #e19cab;">2.Arduino IDE</h2>
+<font size="5"><h2 style="color: #e19cab;">2.Arduino IDE</h2></font>
 
 <h3 style="color: #e19cab;"> (1) Introduction</h3>
 
@@ -116,7 +116,7 @@ class LED {
 ><strong>调试：</strong></font>
 ><strong>如果出现问题，可以逐步检查硬件连接、电源供应以及程序代码，以找到并解决问题。
 
-<h2 style="color: #e19cab;"> 3.Run water light program</h2>
+<font size="5"><h2 style="color: #e19cab;"> 3.Run water light program</h2></font>
 <font color="#ffffff">由于缺少各色的LED小灯泡，因而，决定用ws2812来做流水灯项目。
 
 - **（1）所需硬件：**
@@ -174,13 +174,13 @@ void loop() {
 
 <font color="#ffffff">实体接线和效果图
 
-<img src= https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/2c8f82c334f2c5d53b697ef5c3bc2633b492bbd2/images/%E5%AE%9E%E4%BD%93%E6%8E%A5%E7%BA%BF%E5%9B%BE.jpg alt="Arduino IDE" width="600" />
+<img src= https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/2c8f82c334f2c5d53b697ef5c3bc2633b492bbd2/images/%E5%AE%9E%E4%BD%93%E6%8E%A5%E7%BA%BF%E5%9B%BE.jpg alt="Arduino IDE" width="1000" />
 
-![Arduino-IDE](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/2c8f82c334f2c5d53b697ef5c3bc2633b492bbd2/images/%E5%AE%9E%E4%BD%93%E6%8E%A5%E7%BA%BF%E5%9B%BEGIF.gif)
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/2c8f82c334f2c5d53b697ef5c3bc2633b492bbd2/images/%E5%AE%9E%E4%BD%93%E6%8E%A5%E7%BA%BF%E5%9B%BEGIF.gif" alt="Arduino-IDE" width="1000">
 
 （！高亮问题还未解决ing）
 
-<h2 style="color: #e19cab;">5.解读Opensource Licence中的一个协议 -- GPL3.0</h2>
+<font size="5"><h2 style="color: #e19cab;">5.解读Opensource Licence中的一个协议 -- GPL3.0</h2></font>
 
 - <font size="4"><strong style="color: #ffffff;">什么是GPL3.0：</strong></font>
 
