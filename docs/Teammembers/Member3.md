@@ -18,3 +18,4 @@ She is mainly responsible for the text writing and communication in the team.</f
 
 - <font size="4">Email: 641293915@qq.com</font>
 - <font size="4">[GitHub](https://github.com/2022015544/Ivy-yu/)</font>
+- <font size="4">[web](https://2022015544.github.io/Ivy-yu/)</font>
