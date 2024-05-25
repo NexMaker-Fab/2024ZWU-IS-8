@@ -8,8 +8,9 @@
 - Daily homework
   - [1. how to build web](homework/how-to-build-web.md)
   - [2. arduino basic](homework/arduino-basic.md)
-  - [3. CAD]()
-  - [4. 3D printing]()
+  - [3. arduino input](homework/arduino-input.md)
+  - [4. arduino output](homework/arduino-output.md)
+  - [5. processing](homework/processing.md)
 - Final project
   - topic
   - innovation
