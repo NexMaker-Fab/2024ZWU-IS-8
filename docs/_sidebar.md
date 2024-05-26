@@ -1,10 +1,10 @@
 -  [Team introduce](Team-introduce/Team-introduce.md)
 - Team members
-  - [Member1](Teammembers/Member1.md)
-  - [Member2](Teammembers/Member2.md)
-  - [Member3](Teammembers/Member3.md)
-  - [Member4](Teammembers/Member4.md)
-  - [Member5](Teammembers/Member5.md)
+  - [Rain](Teammembers/Rain.md)
+  - [Mary](Teammembers/Mary.md)
+  - [Ivy](Teammembers/Ivy.md)
+  - [Jessica](Teammembers/Jessica.md)
+  - [Harlan](Teammembers/Harlan.md)
 - Daily homework
   - [1. how to build web](homework/how-to-build-web.md)
   - [2. arduino basic](homework/arduino-basic.md)

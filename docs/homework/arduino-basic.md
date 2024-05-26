@@ -43,7 +43,7 @@ In short, the uses of Orange Pi are diverse, and its uses depend on your needs a
 
   Connect the Arduino board to the computer using a USB cable, and the computer will automatically detect the board.  
 
-  In the Arduino IDE, open a new sketch by selecting`File` > `New`, which opens a new window for writing code. A basic Arduino sketch consists of two main functions: `setup()`和`loop()`。The `setup()` function is called once when the board starts, and the `loop()`unction is called repeatedly as long as the board is powered on.
+  In the Arduino IDE, open a new sketch by selecting`File` > `New`, which opens a new window for writing code. A basic Arduino sketch consists of two main functions: `setup()`and`loop()`。The `setup()` function is called once when the board starts, and the `loop()`unction is called repeatedly as long as the board is powered on.
 
   
 
@@ -191,21 +191,21 @@ In this example, the `turnOn` and `turnOff` functions are methods of the LED cla
 
 
 
-><strong>Programming:</strong></font>
+Programming:
 
-><strong>Use the Arduino IDE or another programming environment to write the program code to control and read the connected hardware devices.
-
-
-
-><strong>Testing:</strong></font>
-
-><strong>Upload the program to the Arduino board and test to ensure that the hardware connections and code work correctly.
+><strong>Use the Arduino IDE or another programming environment to write the program code to control and read the connected hardware devices.</strong>
 
 
 
-><strong>Debugging:</strong></font>
+Testing:
 
-><strong>If problems occur, you can systematically check the hardware connections, the power supply, and the program code to find and solve the issues.
+><strong>Upload the program to the Arduino board and test to ensure that the hardware connections and code work correctly.</strong>
+
+
+
+Debugging:
+
+><strong>If problems occur, you can systematically check the hardware connections, the power supply, and the program code to find and solve the issues.</strong>
 
 
 
@@ -233,7 +233,6 @@ Connect the 2812 LED ring to the digital pins of the Arduino
 
 3. Connect the input pin of the 2812 LED ring to a digital pin 6 of the Arduino
 
-Arduino IDE code example (12 LEDs):
 
 
 
