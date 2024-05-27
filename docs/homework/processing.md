@@ -75,19 +75,19 @@ Example：
 
 ```java
 void setup() {
-  size(500, 500); // Set the canvas size to 500x500 pixels
-  background(255); // Set the background color to white
+  size(500, 500);     // Set the canvas size to 500x500 pixels
+  background(255);    // Set the background color to white
 }
 
 void draw() {
-  fill(255, 0, 0); // Set the fill color to red
-  rect(50, 50, 200, 200); // Draw a rectangle positioned at (50,50) with a width and height of 200
+  fill(255, 0, 0);     // Set the fill color to red
+  rect(50, 50, 200, 200);     // Draw a rectangle positioned at (50,50) with a width and height of 200
 
-  fill(0, 255, 0); // Set the fill color to green
-  ellipse(350, 250, 100, 150); // Draw an ellipse centered at (350,250) with a width of 100 and a height of 150
+  fill(0, 255, 0);    // Set the fill color to green
+  ellipse(350, 250, 100, 150);     // Draw an ellipse centered at (350,250) with a width of 100 and a height of 150
 
-  fill(0, 0, 255); // Set the fill color to blue
-  triangle(100, 300, 250, 450, 50, 450); // Draw a triangle with vertices at (100,300), (250,450), and (50,450)
+  fill(0, 0, 255);    // Set the fill color to blue
+  triangle(100, 300, 250, 450, 50, 450);     // Draw a triangle with vertices at (100,300), (250,450), and (50,450)
 }
 ```
 
@@ -176,7 +176,7 @@ public class RotateObject : MonoBehaviour
 4. [Unity Documentation](https://docs.unity3d.com/Manual/index.html)：Detailed document explaining Unity features and development workflows.
 5. [Brackeys](https://www.youtube.com/user/Brackeys)：The YouTube channel offers many Unity development tutorials. Very suitable for beginners.
 
-<font size="5"><h2 style="color: #e19cab;">3. One demo in processing</h2></font>
+<font size="5"><h2 style="color: #e19cab;">3. One Keyboard interaction demo in processing</h2></font>
 
 ```java
 /**
@@ -186,97 +186,206 @@ public class RotateObject : MonoBehaviour
 **/
 
 void setup(){
-  size(800,600); // Set the size of the canvas
-  background(255,255,183); // Set the background color
+  size(800,600);    // Set the size of the canvas
+  background(255,255,183);    // Set the background color
 }
 
 void draw(){
   // Tail
-  stroke(183,223,255); // Set the color of the stroke
-  fill(112,160,252); // Set the color to fill the shape
-  triangle(380,40,560,130,480,160); // Draw tail
+  stroke(183,223,255);    // Set the color of the stroke
+  fill(112,160,252);    // Set the color to fill the shape
+  triangle(380,40,560,130,480,160);     // Draw tail
 
   // Head
-  fill(171,199,252); // Set the color to fill the shape
-  stroke(183,223,255); // Set the color of the stroke
-  arc(380,100,200,120,PI,TWO_PI); // Draw part of the head
+  fill(171,199,252);    // Set the color to fill the shape
+  stroke(183,223,255);    // Set the color of the stroke
+  arc(380,100,200,120,PI,TWO_PI);     // Draw part of the head
   arc(480,130,80,70,PI+HALF_PI,TWO_PI+HALF_PI); // Draw part of the head
-  arc(280,130,80,70,HALF_PI,PI+HALF_PI); // Draw part of the head
+  arc(280,130,80,70,HALF_PI,PI+HALF_PI);    // Draw part of the head
 
   // Arms
-  fill(112,160,252); // Set the color to fill the shape
-  ellipse(280,210,50,100); // Draw left arm
-  ellipse(480,210,50,100); // Draw right arm
+  fill(112,160,252);    // Set the color to fill the shape
+  ellipse(280,210,50,100);    // Draw left arm
+  ellipse(480,210,50,100);    // Draw right arm
 
   // Body
-  stroke(171,199,252); // Set the color of the stroke
-  fill(171,199,252); // Set the color to fill the shape
-  rect(280,100,200,65); // Draw top part of the body
-  rect(280,165,200,150); // Draw bottom part of the body
+  stroke(171,199,252);    // Set the color of the stroke
+  fill(171,199,252);    // Set the color to fill the shape
+  rect(280,100,200,65);     // Draw top part of the body
+  rect(280,165,200,150);    // Draw bottom part of the body
 
   // Feet
-  fill(112,160,252); // Set the color to fill the shape
-  ellipse(300,320,50,80); // Draw left foot
-  ellipse(460,320,50,80); // Draw right foot
+  fill(112,160,252);    // Set the color to fill the shape
+  ellipse(300,320,50,80);     // Draw left foot
+  ellipse(460,320,50,80);     // Draw right foot
 
   // Belly
-  fill(255,255,255); // Set the color to fill the shape
-  arc(380,160,200,120,PI,TWO_PI); // Draw belly
+  fill(255,255,255);    // Set the color to fill the shape
+  arc(380,160,200,120,PI,TWO_PI);     // Draw belly
 
   // Eyes
-  fill(0,0,0); // Set the color to fill the shape
-  ellipse(320,100,20,30); // Draw left eye
-  ellipse(420,100,20,30); // Draw right eye
+  fill(0,0,0);    // Set the color to fill the shape
+  ellipse(320,100,20,30);     // Draw left eye
+  ellipse(420,100,20,30);     // Draw right eye
 
   // Collar
-  stroke(0,0,0); // Set the color of the stroke
-  strokeWeight(4); // Set the thickness of the stroke
-  fill(255,170,196); // Set the color to fill the shape
-  ellipse(370,125,70,40); // Draw collar
+  stroke(0,0,0);    // Set the color of the stroke
+  strokeWeight(4);    // Set the thickness of the stroke
+  fill(255,170,196);    // Set the color to fill the shape
+  ellipse(370,125,70,40);     // Draw collar
 
   // Teeth
-  fill(255,255,255); // Set the color to fill the shape
-  strokeWeight(3); // Set the thickness of the stroke
-  triangle(340,115,345,125,350,110); // Draw one tooth
-  triangle(355,110,360,120,365,106); // Draw another tooth
-  triangle(370,106,375,118,380,107); // Draw another tooth
-  triangle(385,108,390,120,395,112); // Draw another tooth
+  fill(255,255,255);    // Set the color to fill the shape
+  strokeWeight(3);    // Set the thickness of the stroke
+  triangle(340,115,345,125,350,110);    // Draw one tooth
+  triangle(355,110,360,120,365,106);     // Draw another tooth
+  triangle(370,106,375,118,380,107);    // Draw another tooth
+  triangle(385,108,390,120,395,112);    // Draw another tooth
 
   // Cheeks
-  fill(255,183,205); // Set the color to fill the shape
-  strokeWeight(4); // Set the thickness of the stroke
-  ellipse(300,120,20,10); // Draw left cheek
-  ellipse(440,120,20,10); // Draw right cheek
+  fill(255,183,205);    // Set the color to fill the shape
+  strokeWeight(4);    // Set the thickness of the stroke
+  ellipse(300,120,20,10);     // Draw left cheek
+  ellipse(440,120,20,10);     // Draw right cheek
 
   // Mouth
-  fill(255,255,255); // Set the color to fill the shape
-  stroke(171,199,252); // Set the color of the stroke
-  strokeWeight(0); // Set the thickness of the stroke
-  arc(380,160,175,270,0,PI); // Draw mouth
+  fill(255,255,255);     // Set the color to fill the shape
+  stroke(171,199,252);    // Set the color of the stroke
+  strokeWeight(0);    // Set the thickness of the stroke
+  arc(380,160,175,270,0,PI);    // Draw mouth
 
   // Animation
-  if(mousePressed){ // If the mouse is pressed...
-     if(mouseButton==LEFT){ // And if the mouse button clicked is the left one...
-      translate(30,40); // Shift the coordinate system by 30 in the x-axis and 40 in the y-axis
-      fill(255); // Set the color to fill the shape
-      ellipse(295, 98, 20, 20); // Draw an ellipse
-      ellipse(260, 97, 20, 20); // Draw another ellipse
-      ellipse(230, 94, 20, 20); // Draw another ellipse
+  if(mousePressed){     // If the mouse is pressed...
+     if(mouseButton==LEFT){     // And if the mouse button clicked is the left one...
+      translate(30,40);     // Shift the coordinate system by 30 in the x-axis and 40 in the y-axis
+      fill(255);    // Set the color to fill the shape
+      ellipse(295, 98, 20, 20);     // Draw an ellipse
+      ellipse(260, 97, 20, 20);     // Draw another ellipse
+      ellipse(230, 94, 20, 20);     // Draw another ellipse
     } else {
-      if(mouseButton==RIGHT){ // And if the mouse button clicked is the right one...
-        fill(255, 183, 205); // Set the color to fill the shape
-        strokeWeight(3); // Set the thickness of the stroke
-        stroke(0); // Set the color of the stroke
-        ellipse(300,120,30,20); // Draw an ellipse
-        ellipse(440,120,30,20); // Draw another ellipse
-        translate(0, 0); // Reset the coordinate system
-        fill(0); // Set the color to fill the shape
-        stroke(0); // Set the color of the stroke
-        scale(1.1); // Increase the size of the following shapes
-        ellipse(290,90,30,30); // Draw an ellipse
-        ellipse(382,90,30,30); // Draw another ellipse
+      if(mouseButton==RIGHT){       // And if the mouse button clicked is the right one...
+        fill(255, 183, 205);        // Set the color to fill the shape
+        strokeWeight(3);            // Set the thickness of the stroke
+        stroke(0);                 // Set the color of the stroke
+        ellipse(300,120,30,20);   // Draw an ellipse
+        ellipse(440,120,30,20);   // Draw another ellipse
+        translate(0, 0);  // Reset the coordinate system
+        fill(0);          // Set the color to fill the shape
+        stroke(0);        // Set the color of the stroke
+        scale(1.1);      // Increase the size of the following shapes
+        ellipse(290,90,30,30);    // Draw an ellipse
+        ellipse(382,90,30,30);    // Draw another ellipse
       }  
     }
   }
 }
 ``` 
+<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/36bc1b7b7eef4cc2665ef1275194eca45d82a2f7/images/processing/processing%20%E4%BD%9C%E4%B8%9A2%E9%BC%A0%E6%A0%87%E4%BA%A4%E4%BA%92.gif"></div>
+
+<font size="5"><h2 style="color: #e19cab;">4. One demo in processing and arduino</h2></font>
+
+<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/9bae5b5ebc2bb9b7ca75c4bb8f0c4472ceb0f42c/images/processing/arduino%E8%B6%85%E5%A3%B0%E6%B3%A2%E4%BC%A0%E6%84%9F%E5%99%A8.png"></div>
+
+The color change of the block is controlled by the distance sensor.
+
+Arduino coding
+```c++
+/**
+*Do one demo in processing which can connect with Arduino
+*2024/5/27
+*By BUNBUN Team
+**/
+
+#define TrigPin A0                //control port
+#define EchoPin A1                //return port
+
+float Value_cm;                   //set distance variable
+
+void setup() {
+  Serial.begin(9600);            //initialize serial communication
+  pinMode(TrigPin, OUTPUT);      //set TrigPin pin as output mode
+  pinMode(EchoPin, INPUT);       //set EchoPin pin as input mode
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(TrigPin, LOW);     //initialize control pin
+  delayMicroseconds(2);           //hold for 2 microseconds
+  digitalWrite(TrigPin, HIGH);    //deliver a high level to the control pin
+  delayMicroseconds(10);          //hold for 10 microseconds
+  digitalWrite(TrigPin, LOW);     //initialize control pin
+  Value_cm = float(pulseIn(EchoPin,HIGH)*17)/1000;   //convert high-level pulse duration to distance
+
+  //Serial.print(Value_cm);    //display the distance on serial monitor
+  //Serial.println("cm");  //write 'cm' after the distance and do a line break
+  int Val = Value_cm;
+  Serial.write(Val);
+  delay(1000);    //delay 1000 milliseconds
+}
+```
+Processing coding
+```java
+/**
+*Do one demo in processing which can connect with Arduino
+*2024/5/27
+*By BUNBUN Team
+ * Java Exmples/Libraries/Serial/SimpleRead
+**/
+
+import processing.serial.*;
+
+Serial myPort;  // Create object from Serial class
+int val;      // Data received from the serial port
+
+void setup() 
+{
+  size(200, 200);
+  // I know that the first port in the serial list on my mac
+  // is always my  FTDI adaptor, so I open Serial.list()[0].
+  // On Windows machines, this generally opens COM1.
+  // Open whatever port is the one you're using.
+  String portName = Serial.list()[1]; //Make changes based on your port
+  myPort = new Serial(this, portName, 9600);
+}
+
+void draw()
+{
+  if ( myPort.available() > 0) {  // If data is available,
+    val = myPort.read();         // read it and store it in val
+  }
+  background(255);             // Set background to white
+  if (val > 15) {              // If the serial value is 0,
+    fill(#66CCFF);                   // set fill to black
+  } 
+  else {                       // If the serial value is not 0,
+    fill(204);                 // set fill to light gray
+  }
+  rect(50, 50, 100, 100);
+}
+
+
+
+/*
+
+// Wiring / Arduino Code
+// Code for sensing a switch status and writing the value to the serial port.
+
+int switchPin = 4;                       // Switch connected to pin 4
+
+void setup() {
+  pinMode(switchPin, INPUT);             // Set pin 0 as an input
+  Serial.begin(9600);                    // Start serial communication at 9600 bps
+}
+
+void loop() {
+  if (digitalRead(switchPin) == HIGH) {  // If switch is ON,
+    Serial.write(1);               // send 1 to Processing
+  } else {                               // If the switch is not ON,
+    Serial.write(0);               // send 0 to Processing
+  }
+  delay(100);                            // Wait 100 milliseconds
+}
+
+*/
+```
+<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/0d3dee4fc454ca8077da84aee6cac81223d3c702/images/processing/PROCESSING-ARDUINO.gif"></div>
