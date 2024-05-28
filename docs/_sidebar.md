@@ -11,6 +11,7 @@
   - [3. arduino input](homework/arduino-input.md)
   - [4. arduino output](homework/arduino-output.md)
   - [5. processing](homework/processing.md)
+  - [6. CAD](homework/cad.md)
 - Final project
   - topic
   - innovation
