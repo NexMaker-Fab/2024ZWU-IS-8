@@ -294,6 +294,7 @@ Arduino coding
 *Do one demo in processing which can connect with Arduino
 *2024/5/27
 *By BUNBUN Team
+*refer to https://b23.tv/YqJHhKI
 **/
 
 #define TrigPin A0                //control port
@@ -329,7 +330,8 @@ Processing coding
 *Do one demo in processing which can connect with Arduino
 *2024/5/27
 *By BUNBUN Team
- * Java Exmples/Libraries/Serial/SimpleRead
+*refer to https://b23.tv/YqJHhKI
+* Java Exmples/Libraries/Serial/SimpleRead
 **/
 
 import processing.serial.*;
@@ -344,7 +346,8 @@ void setup()
   // is always my  FTDI adaptor, so I open Serial.list()[0].
   // On Windows machines, this generally opens COM1.
   // Open whatever port is the one you're using.
-  String portName = Serial.list()[1]; //Make changes based on your port
+  String portName = Serial.list()[1];                                  
+  //In this code [1] needs to be changed according to your own port, for example, the port name of our Mac computer after using the converter is /dev/cu.usbserial-120, which is the second in the list, then we should write [1], if you use the first port, it should be modified to [0], and so on.
   myPort = new Serial(this, portName, 9600);
 }
 
@@ -362,5 +365,6 @@ void draw()
   }
   rect(50, 50, 100, 100);
 }
+
 ```
 <div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/0d3dee4fc454ca8077da84aee6cac81223d3c702/images/processing/PROCESSING-ARDUINO.gif"></div>

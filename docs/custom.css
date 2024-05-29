@@ -1,5 +1,5 @@
 body {
-  background-color: #030e1b;
+  background-color: #030e1b; /* 正文部分背景颜色 */
   color: #ffffff; /* 正文部分的字体颜色 */
 }
 
@@ -8,10 +8,6 @@ h1, h2, h3 {
 }
 
 .sidebar {
-  background-color: #e19cab;
-  color: #030e1b;
-}
-.coverpage {
-  background: linear-gradient(to right, #030e1b, #0b3459) !important;
-  color: white !important;
+  background-color: #e19cab; /* 侧边栏背景颜色 */
+  color: #030e1b; /* 侧边栏字体颜色 */
 }
