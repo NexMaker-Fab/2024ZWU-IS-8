@@ -49,6 +49,7 @@ line(mouseX, mouseY, pmouseX, pmouseY);
 }
 }
 ```
+<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/19ff2d1cb18a08ddb1bedadca07b5a844c27806e/images/processing/language%20exp.gif"></div>
 
 - Simply put, a Processing program is primarily built with two functions: `setup()` and `draw()`. The `setup()` function is mainly used for some settings that need to be performed only once when the program starts. The `draw()` function is continuously and repeatedly called during the operation of your program, handling all animations and real-time updates.
 
@@ -90,6 +91,7 @@ void draw() {
   triangle(100, 300, 250, 450, 50, 450);     // Draw a triangle with vertices at (100,300), (250,450), and (50,450)
 }
 ```
+<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/19ff2d1cb18a08ddb1bedadca07b5a844c27806e/images/processing/shape%20example.jpeg"></div>
 
 <h3 style="color: #e19cab;"> For reference</h3>
 

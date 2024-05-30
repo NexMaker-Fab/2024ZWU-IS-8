@@ -18,4 +18,4 @@ She is mainly responsible for the construction of web pages in the team.</font>
 
 - <font size="4">Email: 1730787879@qq.com</font>
 - <font size="4">[GitHub](https://github.com/RainZ222/zwu-Rain)</font>
-- <font size="4">[web](https://rainz222.github.io/zwu-Rain/)</font>
+- <font size="4">[Personal web](https://rainz222.github.io/zwu-Rain/)</font>

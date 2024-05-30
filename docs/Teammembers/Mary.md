@@ -17,4 +17,4 @@
 
 - <font size="4">Email: 1060554407@qq.com</font>
 - <font size="4">[GitHub](https://github.com/zhuotiantian1/ZTT/issues)</font>
-- <font size="4">[web](https://zhuotiantian1.github.io/ZTT/#/)</font>
+- <font size="4">[Personal web](https://zhuotiantian1.github.io/ZTT/#/)</font>

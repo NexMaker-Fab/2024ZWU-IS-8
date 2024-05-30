@@ -18,4 +18,4 @@ He is mainly responsible for technical processing and appearance beautification 
 
 - <font size="4">Email: 1023867105@qq.com</font>
 - <font size="4">[GitHub](https://github.com/HARLAN1LAN/HARLAN-/)</font>
-- <font size="4">[web](https://harlan1lan.github.io/HARLAN-/)</font>
+- <font size="4">[Personal web](https://harlan1lan.github.io/HARLAN-/)</font>
