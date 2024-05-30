@@ -1,6 +1,6 @@
 <h1 style="color: #e19cab;">Arduino Basic</h1>
 
-<font size="5"><h2 style="color: #e19cab;">1. Learn Open Source Hardware -- Orange Pi 5PRO</h2></font>
+<font size="5"><h2 style="color: #e19cab;">1. Learn Open Source Hardware -- Orange Pi 5PRO：http://www.orangepi.cn/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5-Pro.html</h2></font>
 
 <div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/48782181e319d5df3aa8858750d1618614e6dace/images/Arduino/%E9%A6%99%E6%A9%99%E6%B4%BE1.png"></div>
 

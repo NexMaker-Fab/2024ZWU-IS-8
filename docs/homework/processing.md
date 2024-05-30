@@ -176,7 +176,7 @@ public class RotateObject : MonoBehaviour
 4. [Unity Documentation](https://docs.unity3d.com/Manual/index.html)：Detailed document explaining Unity features and development workflows.
 5. [Brackeys](https://www.youtube.com/user/Brackeys)：The YouTube channel offers many Unity development tutorials. Very suitable for beginners.
 
-<font size="5"><h2 style="color: #e19cab;">3. One Keyboard interaction demo in processing</h2></font>
+<font size="5"><h2 style="color: #e19cab;">3. One mouse interaction demo in processing</h2></font>
 
 ```java
 /**
