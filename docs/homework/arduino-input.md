@@ -1,137 +1,147 @@
 <h1 style="color: #e19cab;">Arduino Input</h1>
 
-<h2 style="color: #e19cab;"> 1.What is Arduino Input</h2>
+<h1 style="color: #e19cab;">Analog circuit connection：</h1>
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/6dbb01556b23a121ea53d454a234cc81c456e271/images/Arduino/%E7%94%B5%E8%B7%AFinput.png" alt="Arduino-input" width="1200">
+
+<h2 style="color: #e19cab;"> We have selected two effects for this Arduino Input assignment：</h2>
+· （1） When the distance between the object and the ultrasonic detector is less than 50cm, the WS2812 light ring starts to emit light in turn in sequence; When the distance is greater than 50cm, the light ring goes out.
+
+<h3 style="color: #e19cab;"> Physical connection diagram：</h3>
+
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/861f8db1b5f6f992ca08130d57731b976bac2727/images/Arduino/1.gif" alt="Arduino-input" width="1200">
+<h3 style="color: #e19cab;"> Code：</h3>
 
 ```c++
 /**
-*Using ArduinoIDE for hardware interaction, the distance between the hand and the sensor determines the brightness of the LED lights
-*2024/5/28
+*This is the first effect of Arduino Input interactive
+*2024/5/30
 *By BUNBUN Team
-*Refer to https://www.nexmaker.com/doc/5arduino/Arduino_Input.html，but changed by ourselve
 **/
+#include <Adafruit_NeoPixel.h> //This line includes the Adafruit_NeoPixel library, which is used for controlling WS2812 LED rings.
 
-#define TrigPin A0    // Define the trigger pin connection of the ultrasonic sensor as A0
-#define EchoPin A1    // Define the echo pin connection of the ultrasonic sensor as A1
+#define TRIG_PIN 2 //The trigger pin of the ultrasonic sensor, connected to digital pin 2 on the Arduino.
+#define ECHO_PIN 3 //The trigger pin of the ultrasonic sensor, connected to digital pin 3 on the Arduino.
+#define LED_PIN 6 // The data pin for the WS2812 LED ring, connected to digital pin 6 on the Arduino.
+#define NUM_LEDS 8 // 灯The number of LEDs on the WS2812 LED ring, which is 8 in this case.
 
-const int LED1 = 12; // Define the pin connection of the red LED as 12
-const int LED2 = 13; // Define the pin connection of the green LED as 13
-
-int val = 0; 
-// Define an integer variable val and initialize it to 0. This variable is not currently used in the code but may be used for future functionality expansion.
-
-long distance;  // Define a long integer variable distance to store the measured distance value
-
-int count = 0; // Define an integer variable count and initialize it to 0 to record the loop count
-
-long duration; // Define a long integer variable duration to store the duration of the ultrasonic sensor echo
+Adafruit_NeoPixel strip(NUM_LEDS, LED_PIN, NEO_GRB + NEO_KHZ800); //NUM_LEDS: Specifies the number of LEDs on the LED ring.LED_PIN: Specifies the Arduino pin number connected to the data pin.NEO_GRB + NEO_KHZ800: Specifies the color arrangement and frequency of the LED ring.
 
 void setup() {
- // set Serial communication
-    Serial.begin(115200);
-    // Initialize serial communication with a baud rate of 115200.
-    // This allows Arduino to communicate with the computer via serial port.
-    // set pin mode
-    pinMode(LED1, OUTPUT); 
-    pinMode(LED2, OUTPUT); // Set the pin mode: LED1 and LED2 as output mode
-    pinMode(TrigPin, OUTPUT); // Set TrigPin as output mode
-    pinMode(EchoPin, INPUT);  // Set EchoPin as input mode
-    // LED pins are used to control the LED lights, TrigPin is used to trigger the ultrasonic sensor to send signals, and EchoPin is used to receive ultrasonic echo signals.
-    // init pin
-    digitalWrite(TrigPin, LOW);
-    delay(1);
-    // Set the TrigPin to a low level and delay for 1 millisecond.
-    // This is to initialize the ultrasonic sensor.
+  Serial.begin(9600);
+  pinMode(TRIG_PIN, OUTPUT);
+  pinMode(ECHO_PIN, INPUT);
+  strip.begin();
+  strip.show(); // Initialize the LED ring
 }
 
 void loop() {
-    Serial.println(count++);  // Print the current loop count to the serial monitor and increment count
-    Serial.println(getDistance());  // Print the distance measured by the ultrasonic sensor to the serial monitor
-    distance = getDistance();   // Store the measured distance in the distance variable
-    Serial.println("");
-    Serial.println("");    // Print two empty lines to the serial monitor
-    delay(1000);    // Delay for 1 second
-    // LED control logic...
-}
- if(val==HIGH) //This is a conditional statement, checking if the variable val is equal to HIGH.
-{
-    if (distance > 500)  {
-        digitalWrite(LED1, HIGH);
-        digitalWrite(LED2, HIGH);//If the condition is met, i.e., if the distance is greater than 500, both LED1 and LED2 are set to a high state (turned on).
-    }
-    else if (distance > 200 && distance < 500) {
-        digitalWrite(LED1, HIGH);
-        digitalWrite(LED2, LOW);//If the condition above isn't met but this one is, i.e., if the distance is greater than 200 and less than 500, LED1 is set to a high state and LED2 is set to a low state.
-    }
-    else if (distance < 200) {
-        digitalWrite(LED1, LOW);
-        digitalWrite(LED2, LOW);//If neither of the above conditions is met, i.e., if the distance is less than 200, both LED1 and LED2 are set to a low state (turned off).
-    }
+  long duration, distance;
 
-}
-else
-{ 
-    
-    if (distance > 500)  {
-        digitalWrite(LED1, LOW);
-        digitalWrite(LED2, LOW);//If the condition is met, i.e., if the distance is greater than 500, both LED1 and LED2 are set to a low state (turned off).
+  // Send ultrasonic pulse
+  digitalWrite(TRIG_PIN, LOW);
+  delayMicroseconds(2);
+  digitalWrite(TRIG_PIN, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(TRIG_PIN, LOW);
+
+  // Calculate ultrasonic round-trip time
+  duration = pulseIn(ECHO_PIN, HIGH);
+
+  // Convert time to distance, unit: centimeters
+  distance = duration * 0.034 / 2;
+
+  // Print distance to serial monitor
+  Serial.print("Distance: ");
+  Serial.print(distance);
+  Serial.println(" cm");
+
+  // If distance is less than 50 centimeters, sequentially light up LEDs on the LED ring
+  if (distance < 50) {
+    for(int i=0; i<NUM_LEDS; i++) {
+      strip.setPixelColor(i, strip.Color(34, 100, 230)); // Set color to blue
+      strip.show(); // Update LED ring display
+      delay(100); // Wait for a while
     }
-    else if (distance > 200 && distance < 500) {
-        digitalWrite(LED1, LOW);
-        digitalWrite(LED2, HIGH);//If the condition above isn't met but this one is, i.e., if the distance is greater than 200 and less than 500, LED1 is set to a low state and LED2 is set to a high state.
-    }
-    else if (distance < 200) {
-        digitalWrite(LED1, HIGH);
-        digitalWrite(LED2, HIGH);//If neither of the above conditions is met, i.e., if the distance is less than 200, both LED1 and LED2 are set to a high state (turned on).
-    }
+  } else {
+    strip.clear(); // Clear the LED ring
+    strip.show(); // Update LED ring display
+  }
+
+  // Wait for a while before next measurement
+  delay(1000);
 }
 
-// The getDistance function is used to obtain the distance measured by the ultrasonic sensor
-long getDistance() {
-    // Trigger the ultrasonic sensor
-    digitalWrite(TrigPin, LOW); // Set the TrigPin (trigger pin of the ultrasonic sensor) to a low level
-    delayMicroseconds(2);  // Pause the program execution for 2 microseconds
-    digitalWrite(TrigPin, HIGH); // Set the TrigPin to a high level. This action will send a high level signal of more than 10 microseconds to the ultrasonic sensor to trigger it to send ultrasonic signals.
-    delayMicroseconds(10); // This line of code pauses the execution for 10 microseconds. This delay ensures that the ultrasonic sensor can receive the trigger signal and send ultrasonic signals normally.
-    digitalWrite(TrigPin, LOW); // Send the trigger pulse for the ultrasonic signals
-
-    // Receive echo signals
-    duration = pulseIn(EchoPin, HIGH); // unit: microseconds. Measure the duration of the high-level pulse on the EchoPin pin using the pulseIn function. The unit is microseconds (us).
-    return duration * 0.34029 / 2;         // unit: mm
-    // Convert the pulse duration to distance (unit: millimeters) according to the speed of sound formula, and return the result.
-}
 ```
+· （2） When the distance between the object and the ultrasonic detector is greater than 50cm, the first lighting effect will be displayed: the WS2812 light ring will continue to flash;
+When the distance is less than 50cm, display the second lighting effect: the light ring starts to light up in sequence
+<h3 style="color: #e19cab;"> Physical connection diagram：</h3>
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/861f8db1b5f6f992ca08130d57731b976bac2727/images/Arduino/2.gif" alt="Arduino-input" width="1200">
 
-<h2 style="color: #e19cab;"> 2.Physical connection diagram</h2>
-<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/aa39231dcc18a6603a8169316bbd28294a50a502/images/Arduino/Arduino%20input%20%E4%BD%8E%E7%94%B5%E5%B9%B3.gif"></div>
+<h3 style="color: #e19cab;"> Code：</h3>
 
+```c++
+/**
+*This is the second effect of Arduino Input interactive
+*2024/5/30
+*By BUNBUN Team
+**/
+#include <Adafruit_NeoPixel.h>
 
-<h3 style="color: #e19cab;">- HIGH LEVEL INPUT</h3>
-<font size="3"><h3 style="color: #e19cab;">This figure shows the high level intput of Arduino</h3></font>
+#define TRIG_PIN 2
+#define ECHO_PIN 3
+#define LED_PIN 6 // Data pin for WS2812 LED ring
+#define NUM_LEDS 8 // Number of LEDs on the LED ring
 
-·When the ultrasonic detection device detects a distance of less than 200mm, both red and green LEDs light up simultaneously
+Adafruit_NeoPixel strip(NUM_LEDS, LED_PIN, NEO_GRB + NEO_KHZ800);
 
-·Between 200mm and 500mm, only green LED lights up
+void setup() {
+  Serial.begin(9600); // Initialize serial communication at 9600 baud
+  pinMode(TRIG_PIN, OUTPUT); // Set the trigger pin as output
+  pinMode(ECHO_PIN, INPUT); // Set the echo pin as input
+  strip.begin(); // Initialize the LED strip
+  strip.show(); // Initialize the LED strip
+}
 
-·Distance greater than 500mm, LED light off
+void loop() {
+  long duration, distance;
 
-<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/aa39231dcc18a6603a8169316bbd28294a50a502/images/Arduino/arduino%20input%20%E9%AB%98%E7%94%B5%E5%B9%B3%20.gif"></div>
+  // Send ultrasonic pulse
+  digitalWrite(TRIG_PIN, LOW);
+  delayMicroseconds(2);
+  digitalWrite(TRIG_PIN, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(TRIG_PIN, LOW);
 
-<h3 style="color: #e19cab;">- LOW LEVEL INPUT</h3>
-<font size="3"><h3 style="color: #e19cab;">This figure shows the low level intput of Arduino</h3></font>
+  // Calculate the round trip time of the ultrasonic pulse
+  duration = pulseIn(ECHO_PIN, HIGH);
 
-·When the ultrasonic detection device detects a distance of less than 200mm, LED light off
+  // Convert time to distance, unit: centimeters
+  distance = duration * 0.034 / 2;
 
-·Between 200mm and 500mm, only green LED lights up
+  // Print distance to the serial monitor
+  Serial.print("Distance: ");
+  Serial.print(distance);
+  Serial.println(" cm");
 
-·Distance greater than 500mm, both red and green LEDs light up simultaneously
+  // If distance is less than 50 centimeters, light up the LED ring one by one
+  if (distance < 50) {
+    for(int i=0; i<NUM_LEDS; i++) {
+      strip.setPixelColor(i, strip.Color(34, 100, 230)); // Set color
+      strip.show(); // Update LED ring display
+      delay(100); // Wait for a while
+    }
+  }
+  // If distance is greater than 50 centimeters, blink the LED ring once per second for 5 seconds
+  else {
+    for(int i=0; i<5; i++){
+      strip.fill(strip.Color(34, 100, 230)); // Light up LED ring
+      strip.show();
+      delay(500);  // Light for 500 milliseconds
+      strip.clear(); // Turn off LED ring
+      strip.show();
+      delay(500);  // Dark for 500 milliseconds
+    }
+  }
+}
 
-
-<h2 style="color: #e19cab;">3.Arduino Analogical Electronics</h2>
-
-<font size="5"><h2 style="color: #e19cab;">- NOT CONNECTED</h2></font>
-
-<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c2f5a993282a3ebbc0d05ef86e9e8ac731634045/WechatIMG22194.jpg"></div>
-
-<font size="5"><h2 style="color: #e19cab;">- CONNECTED</h2></font>
-
-<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c2f5a993282a3ebbc0d05ef86e9e8ac731634045/WechatIMG22194.jpg"></div>
+```
