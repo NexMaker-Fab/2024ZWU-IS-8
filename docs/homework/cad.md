@@ -65,8 +65,17 @@ By using the built-in bottle plugin in Fusion 360, we applied a bottle material 
 
 ## <font size="5"><h2 style="color: #e19cab;">4.Practice for Automated Modeling</h2></font>
 
-Select the place where the two objects need to be connected, select the two or multiple faces that need to be connected to avoid the entities to avoid other objects, and then finally you can choose multiple schemes. Either one, AI can automatically generate the connection position of the two parts, and can generate a variety of styles, and finally generate the required parts.
+<font size="3"><h3 style="color: #e19cab;">About the website of [Text to CAD](https://zoo.dev/text-to-cad):</h3></font>
 
+It is a promising AI tool that allows users to generate CAD files through text input. Its basic idea is to guide the generation of CAD models through text descriptions, without the need for manual drawing, bringing more flexibility and efficiency to the design process.   
+
+- **Benefit:** It is very useful for those who are not familiar with CAD software or want to quickly generate preliminary designs. Through simple text input, they can quickly obtain CAD models, thereby accelerating the design process. Meanwhile, this method can also provide CAD designers with a quick way to validate and iterate design ideas. Anyone can freely modify and customize open-source projects according to their own needs, making them more suitable for specific use cases or industries.
+- **How to use it with Autodesk Fusion 360:** With Text to CAD, users can generate preliminary CAD models through simple text descriptions, which can be imported into Autodesk Fusion for further refinement and modification. It is also possible to quickly generate multiple design proposals and then import them into Autodesk Fusion for validation and further design iterations. This can accelerate the design process and improve the accuracy of the design.
+How to use it in conjunction with Autodesk Fusion 360: With Text to CAD, users can generate preliminary CAD models through simple text descriptions, which can be imported into Autodesk Fusion for further refinement and modification. It is also possible to quickly generate multiple design proposals and then import them into Autodesk Fusion for validation and further design iterations. This can accelerate the design process and improve the accuracy of the design.     
+
+In this application of the website, we generate the connection positions of two components using AI. Select the place where the two objects need to be connected, select the two or multiple faces that need to be connected to avoid the entities to avoid other objects, and then finally you can choose multiple schemes. Either one, AI can automatically generate the connection position of the two parts, and can generate a variety of styles, and finally generate the required parts.
+
+Generate a demonstration of the effect
 <img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/f62127a62e267bf807def1c882441388f15f07c0/images/CAD/AI%E5%AE%9E%E8%B7%B5.png" alt="CAD T2" width="1200">
 
 
