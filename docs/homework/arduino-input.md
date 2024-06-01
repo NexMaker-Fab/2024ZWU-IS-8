@@ -1,10 +1,17 @@
 <h1 style="color: #e19cab;">Arduino Input</h1>
 
-<h1 style="color: #e19cab;">Analog circuit connection：</h1>
-<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/6dbb01556b23a121ea53d454a234cc81c456e271/images/Arduino/%E7%94%B5%E8%B7%AFinput.png" alt="Arduino-input" width="1200">
+<h2 style="color: #e19cab;">Analog circuit connection：</h2>
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/04758b785598f4858a7408c46e20ffe9acacac30/images/Arduino/%E6%9C%80%E7%BB%88input.jpg" alt="Arduino-input" width="1200">
+
+<h2 style="color: #e19cab;">Efect 1 GIF Animation：</h2>
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/411de6c3bfdc343ab1dd1dd4adec564335c6f46b/images/Arduino/%E6%95%88%E6%9E%9C%E4%B8%80.gif" alt="Arduino-input" width="1200">
+
+<h2 style="color: #e19cab;">Efect 2 GIF Animation：</h2>
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/411de6c3bfdc343ab1dd1dd4adec564335c6f46b/images/Arduino/%E6%95%88%E6%9E%9C%E4%BA%8C.gif" alt="Arduino-input" width="1200">
+
 
 <h2 style="color: #e19cab;"> We have selected two effects for this Arduino Input assignment：</h2>
-· （1） When the distance between the object and the ultrasonic detector is less than 50cm, the WS2812 light ring starts to emit light in turn in sequence; When the distance is greater than 50cm, the light ring goes out.
+（1） When the distance between the object and the ultrasonic detector is less than 50cm, the WS2812 light ring starts to emit light in turn in sequence; When the distance is greater than 50cm, the light ring goes out.
 
 <h3 style="color: #e19cab;"> Physical connection diagram：</h3>
 
@@ -22,7 +29,7 @@
 #define TRIG_PIN 2 //The trigger pin of the ultrasonic sensor, connected to digital pin 2 on the Arduino.
 #define ECHO_PIN 3 //The trigger pin of the ultrasonic sensor, connected to digital pin 3 on the Arduino.
 #define LED_PIN 6 // The data pin for the WS2812 LED ring, connected to digital pin 6 on the Arduino.
-#define NUM_LEDS 8 // 灯The number of LEDs on the WS2812 LED ring, which is 8 in this case.
+#define NUM_LEDS 8 // The number of LEDs on the WS2812 LED ring, which is 8 in this case.
 
 Adafruit_NeoPixel strip(NUM_LEDS, LED_PIN, NEO_GRB + NEO_KHZ800); //NUM_LEDS: Specifies the number of LEDs on the LED ring.LED_PIN: Specifies the Arduino pin number connected to the data pin.NEO_GRB + NEO_KHZ800: Specifies the color arrangement and frequency of the LED ring.
 
@@ -72,7 +79,7 @@ void loop() {
 }
 
 ```
-· （2） When the distance between the object and the ultrasonic detector is greater than 50cm, the first lighting effect will be displayed: the WS2812 light ring will continue to flash;
+（2） When the distance between the object and the ultrasonic detector is greater than 50cm, the first lighting effect will be displayed: the WS2812 light ring will continue to flash;
 When the distance is less than 50cm, display the second lighting effect: the light ring starts to light up in sequence
 <h3 style="color: #e19cab;"> Physical connection diagram：</h3>
 <img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/861f8db1b5f6f992ca08130d57731b976bac2727/images/Arduino/2.gif" alt="Arduino-input" width="1200">

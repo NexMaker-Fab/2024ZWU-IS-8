@@ -21,7 +21,7 @@ Firstly, you need to create a new repository on GitHub to host your website.
 
 2. Create a public repository where you can collaborate with your team to create web content.
 
-  ![图片1](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/1.png)）
+  ![图片1](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/1.png)
 
 3. Name your repository, choose whether it's public or private. Add a README file to share your information, then click the "create repository" button.
 
@@ -129,7 +129,7 @@ If you want to deploy the document website to GitHub Pages, you can push the Doc
 (ps. If PicGo configuration keeps failing, you can directly create a folder named "images" in your GitHub repository and add files to it.)
 
 
-<h2 style="color: #e19cab;">5. Creating Webpage Cover</h2>
+<h2 style="color: #e19cab;">5. Creating Webpage Cover（index.html)</h2>
 
 1. Create a new folder to store your Docsify project, and within that folder, create an HTML file named index.html. In Visual Studio, select "File" > "New" > "File", choose "HTML File" as the file type, and name the file.
 
@@ -138,6 +138,35 @@ If you want to deploy the document website to GitHub Pages, you can push the Doc
 2. Write Configuration and Content: In the newly created HTML file, write the basic structure of the webpage, including <html>, <head>, and <body> tags. Within the <body> tag, write the content of the webpage cover, including titles, slogans, background images or videos, etc.ps: Because markdown only supports basic text writing, we often need <html> to assist with complex formats and styles
 
 ![图片24](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/24.jpg)
+
+```html
+<!DOCTYPE html>/* Document type html */
+<html lang="en">/* Specify language as English */
+<head>
+  <meta charset="UTF-8">/*Set character set to UTF-8 */
+  <title>BUNBUN TEAM</title>/*Set page title */
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="Welcome! Here is the website of the BUNBUN Group, we are a group of five people with no basic computer knowledge, but we are always curious, learning spirit and our own unique personality! Let's always keep it warm!" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">/*Import Docsify default theme style */
+  <link rel="stylesheet" href="custom.css"> /*Import custom CSS file */
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {/*Set Docsify configuration */
+      name: 'BUNBUN TEAM',/*Set website name */
+      repo: 'https://nexmaker-fab.github.io/2024ZWU-IS-BUNBUN/',/*Set repository link*/
+      loadSidebar:true,  /*Whether to load the sidebar*/
+      coverpage: 'coverpage.md',/*Set cover page*/
+    }
+  </script>
+  <!-- Docsify v4 --> /*Import Docsify library  */
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script> 
+</body>
+</html>
+```
 
 <h2 style="color: #e19cab;">6. Add CSS Styles</h2>
 
