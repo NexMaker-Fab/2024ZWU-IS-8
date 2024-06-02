@@ -88,8 +88,18 @@ How to use it in conjunction with Autodesk Fusion 360: With Text to CAD, users c
 In this application of the website, we generate the connection positions of two components using AI. Select the place where the two objects need to be connected, select the two or multiple faces that need to be connected to avoid the entities to avoid other objects, and then finally you can choose multiple schemes. Either one, AI can automatically generate the connection position of the two parts, and can generate a variety of styles, and finally generate the required parts.
 
 Generate a demonstration of the effect
-<img src="https://cdn.jsdelivr.net/gh/HARLAN1LAN/imageuploadservice/img/CAD%20ai%E5%88%B6%E4%BD%9C%E8%A3%85%E9%85%8D%E5%AE%8C%E6%95%B4%E5%9B%BE.gif" alt="CAD T2" width="1200">
 
+1. Click the Auto generation option, select the face to be connected, and select the two faces in the middle that need to be linked
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/848f5874c0374cbaf6e62aec316be26622049bba/images/CAD/cad%20auto/5.jpg" alt="CAD T2" width="1200">
+
+2. Select other blocks that do not need to be linked
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/848f5874c0374cbaf6e62aec316be26622049bba/images/CAD/cad%20auto/6.jpg" alt="CAD T2" width="1200">
+
+3. Generate multiple alternatives and select the required parts
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/848f5874c0374cbaf6e62aec316be26622049bba/images/CAD/cad%20auto/1.jpg" alt="CAD T2" width="1200">
+
+4. Finished Products
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/848f5874c0374cbaf6e62aec316be26622049bba/images/CAD/cad%20auto/2.jpg" alt="CAD T2" width="1200">
 
 ## <font size="5"><h2 style="color: #e19cab;">5. Another CAD softwares</h2></font>
 
