@@ -26,8 +26,8 @@
 **/
 #include <Adafruit_NeoPixel.h> //This line includes the Adafruit_NeoPixel library, which is used for controlling WS2812 LED rings.
 
-#define TRIG_PIN 2 //The trigger pin of the ultrasonic sensor, connected to digital pin 2 on the Arduino.
-#define ECHO_PIN 3 //The trigger pin of the ultrasonic sensor, connected to digital pin 3 on the Arduino.
+#define TRIG_PIN 3 //The trigger pin of the ultrasonic sensor, connected to digital pin 3 on the Arduino.
+#define ECHO_PIN 2 //The trigger pin of the ultrasonic sensor, connected to digital pin 2 on the Arduino.
 #define LED_PIN 6 // The data pin for the WS2812 LED ring, connected to digital pin 6 on the Arduino.
 #define NUM_LEDS 8 // The number of LEDs on the WS2812 LED ring, which is 8 in this case.
 
@@ -94,8 +94,8 @@ When the distance is less than 50cm, display the second lighting effect: the lig
 **/
 #include <Adafruit_NeoPixel.h>
 
-#define TRIG_PIN 2
-#define ECHO_PIN 3
+#define TRIG_PIN 3
+#define ECHO_PIN 2
 #define LED_PIN 6 // Data pin for WS2812 LED ring
 #define NUM_LEDS 8 // Number of LEDs on the LED ring
 

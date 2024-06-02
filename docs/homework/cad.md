@@ -88,7 +88,7 @@ How to use it in conjunction with Autodesk Fusion 360: With Text to CAD, users c
 In this application of the website, we generate the connection positions of two components using AI. Select the place where the two objects need to be connected, select the two or multiple faces that need to be connected to avoid the entities to avoid other objects, and then finally you can choose multiple schemes. Either one, AI can automatically generate the connection position of the two parts, and can generate a variety of styles, and finally generate the required parts.
 
 Generate a demonstration of the effect
-<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/f62127a62e267bf807def1c882441388f15f07c0/images/CAD/AI%E5%AE%9E%E8%B7%B5.png" alt="CAD T2" width="1200">
+<img src="https://cdn.jsdelivr.net/gh/HARLAN1LAN/imageuploadservice/img/CAD%20ai%E5%88%B6%E4%BD%9C%E8%A3%85%E9%85%8D%E5%AE%8C%E6%95%B4%E5%9B%BE.gif" alt="CAD T2" width="1200">
 
 
 ## <font size="5"><h2 style="color: #e19cab;">5. Another CAD softwares</h2></font>
