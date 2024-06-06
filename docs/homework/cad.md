@@ -143,4 +143,28 @@ In addition, you can also visit some other resources, such as:
 1. [Lynda.com](https://www.lynda.com/): Offers a wealth of AutoCAD tutorials and training courses, suitable for beginners and professionals.
 2. [CADTutor](http://www.cadtutor.net/): This website provides many free AutoCAD tutorials that are easy to understand.
 
+## <font size="5"><h2 style="color: #e19cab;">6. Engineering Drawing</h2></font>
+1. Select a file to convert to a project drawing
+<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/1.jpg"></div>
 
+2. Select parts and export them horizontally
+<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/2.jpg"></div>
+
+3. Select the visible edge style and the appropriate zoom ratio
+<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/3.jpg"></div>
+
+4. Build a projection view and select main view, top view, left view, and overall view
+<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/4.jpg"></div>
+
+5. Use the dimensioning to select the size to be marked
+<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/5.jpg"></div>
+
+6. Create a local view. Select key objects to view
+<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/6.jpg"></div>
+
+7. Select a local area and enlarge the view
+<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/7.jpg"></div>
+
+8. Export the engineering drawing file
+<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/8.jpg"></div>
+ 
