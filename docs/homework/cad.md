@@ -162,9 +162,8 @@ In addition, you can also visit some other resources, such as:
 6. Create a local view. Select key objects to view
 <div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/6.jpg"></div>
 
-7. Select a local area and enlarge the view
-<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/7.jpg"></div>
+7. Export the engineering drawing file
+<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/28f6457b9f7df60aec0137da80475426dcea13f0/images/CAD/Engineering%20Drawing/7.jpg"></div>
 
-8. Export the engineering drawing file
-<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/8.jpg"></div>
+<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/28f6457b9f7df60aec0137da80475426dcea13f0/images/CAD/Engineering%20Drawing/8.jpg"></div>
  
