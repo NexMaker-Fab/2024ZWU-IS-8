@@ -11,6 +11,8 @@
   - [3. arduino input](homework/arduino-input.md)
   - [4. processing](homework/processing.md)
   - [5. CAD](homework/cad.md)
+  - [6. materials](homework/materials.md) 
+  - [7. 3D printer](homework/3d-print.md)   
 - Final project
   - topic
   - innovation
