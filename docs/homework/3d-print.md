@@ -73,7 +73,41 @@ Official website reference link ： https://www.hp.com/cn-zh/printers/3d-printer
 
 <h2 style="color: #e19cab;">Use slice software to setting parameter</h2>
 
+
+
+
+
+
 <h2 style="color: #e19cab;">Use 3D printer to manufacture it</h2>
+
+1. Choose a printer, the model we choose is Anycubic Vyper.
+
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/34c24908ab42fc2984bfe28b63fbf018150a7c54/images/3dprint/%E8%87%AA%E5%B7%B1%E7%9A%843d%E6%89%93%E5%8D%B0/1.jpg">
+
+2. Select Manage Printer, select Printer, and select Printer Settings.
+
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/34c24908ab42fc2984bfe28b63fbf018150a7c54/images/3dprint/%E8%87%AA%E5%B7%B1%E7%9A%843d%E6%89%93%E5%8D%B0/2.jpg" width="1200">
+
+3. Parameter selection X width is 230.0mm, Y depth is 230.0mm, Z height is 260.0mm, complete the setting.
+
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/34c24908ab42fc2984bfe28b63fbf018150a7c54/images/3dprint/%E8%87%AA%E5%B7%B1%E7%9A%843d%E6%89%93%E5%8D%B0/3.jpg">
+
+4. Set the printing temperature, printing table temperature, and drawback distance and speed.
+
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/34c24908ab42fc2984bfe28b63fbf018150a7c54/images/3dprint/%E8%87%AA%E5%B7%B1%E7%9A%843d%E6%89%93%E5%8D%B0/4.jpg">
+
+5. After completing the setting, select the appropriate print size, adjust the print orientation and 3D view, and select the slice after confirmation.
+
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/34c24908ab42fc2984bfe28b63fbf018150a7c54/images/3dprint/%E8%87%AA%E5%B7%B1%E7%9A%843d%E6%89%93%E5%8D%B0/5.jpg">
+
+6. Complete the slice view, export the file to the printer, and select the file to print.
+
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/34c24908ab42fc2984bfe28b63fbf018150a7c54/images/3dprint/%E8%87%AA%E5%B7%B1%E7%9A%843d%E6%89%93%E5%8D%B0/6.jpg" width="1200">
+
+7. The printing is complete.
+
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/34c24908ab42fc2984bfe28b63fbf018150a7c54/images/3dprint/%E8%87%AA%E5%B7%B1%E7%9A%843d%E6%89%93%E5%8D%B0/7.jpg">
+
 
 <h2 style="color: #e19cab;">Postprocess the surface</h2>
 <h3 style="color: #e19cab;">1. Basic steps:</h3>

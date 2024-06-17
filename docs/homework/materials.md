@@ -208,7 +208,7 @@ Chiffon material, 40 * 5cm, 30 * 5cm, 20 * 5cm
 - **Chiffon:**
 Chiffon is a very popular clothing material that has the following advantages:**Chiffon material is lightweight and breathable**, the fabric is soft and comfortable to the touch, soft and elegant. Not easily wrinkled, easy to take care of, suitable for busy modern life. It can also be made into various clothing, such as tops, skirts, etc., with a variety of styles and a wide range of choices. It can **be dyed into various colors**, whether they are bright or soft, they can be fully displayed.
 
-![Material-T4](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/ea11eabb71c0b1e2b644d2893f22abcd9d66f537/images/3dprint/%E7%BA%B1%E5%B8%831.png)
+![Material-T4](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/35f5a3c276c73d129d729f46f6bb3f08b0fd55c2/images/3dprint/%E5%B8%83%E6%96%99.png)
 
 ### <font size="3"><h3 style="color: #e19cab;">9. Microphone</h3></font>
 - **Specification:**
@@ -234,8 +234,7 @@ R= 0.5cm *12
 - **Stainless steel:**
 Stainless steel has **excellent corrosion resistance**, and can **maintain its physical properties and surface resistance to corrosion**, whether in humid or high-temperature environments. Stainless steel material has high hardness, wear resistance, long service life, and can maintain good working performance in various environments. It has high strength and can withstand large loads, making nuts and washers **less prone to deformation or damage under stress**. The surface of the material is smooth, and dirt is not easily attached. It is easy to clean and can maintain a shiny and new appearance.
 
-![Material-T4](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/256b8121be3eba858931e2dd95276b2f3de3f36a/images/3dprint/%E5%9E%AB%E5%9C%88.png)
-![Material-T4](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/256b8121be3eba858931e2dd95276b2f3de3f36a/images/3dprint/%E8%9E%BA%E6%AF%8D.png)
+![Material-T4](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/35f5a3c276c73d129d729f46f6bb3f08b0fd55c2/images/3dprint/%E8%9E%BA%E9%92%89.png)
 
 
 
@@ -252,7 +251,7 @@ Wear resistant cast iron is a type of cast iron that operates under dry friction
 ![Material-T4](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/ea11eabb71c0b1e2b644d2893f22abcd9d66f537/images/3dprint/%E7%94%B5%E6%9C%BA.jpg)
 
 
-### <font size="3"><h3 style="color: #e19cab;"> 13. Round platform</h3></font>
+### <font size="3"><h3 style="color: #e19cab;">13. Round platform</h3></font>
 - **Specification:**
 1.5cm * 30cm
 - **Pine:**
