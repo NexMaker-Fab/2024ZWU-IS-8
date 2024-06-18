@@ -71,14 +71,7 @@ Official website reference link ： https://www.hp.com/cn-zh/printers/3d-printer
 
 <img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/06fc768f8491f01d957fde54135126af647b6851/images/webbuild/%E6%BF%80%E5%85%89%E7%86%94%E5%8C%96%E6%B2%89%E7%A7%AF.png" alt="Arduino-input" width="1200">
 
-<h2 style="color: #e19cab;">Use slice software to setting parameter</h2>
-
-
-
-
-
-
-<h2 style="color: #e19cab;">Use 3D printer to manufacture it</h2>
+<h2 style="color: #e19cab;">Use slice software to setting parameter and Use 3D printer to manufacture it</h2>
 
 1. Choose a printer, the model we choose is Anycubic Vyper.
 
@@ -105,6 +98,8 @@ Official website reference link ： https://www.hp.com/cn-zh/printers/3d-printer
 <img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/34c24908ab42fc2984bfe28b63fbf018150a7c54/images/3dprint/%E8%87%AA%E5%B7%B1%E7%9A%843d%E6%89%93%E5%8D%B0/6.jpg" width="1200">
 
 7. The printing is complete.
+
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/f4ea722a2b51b5f9afe198fe6586e14669fd7340/images/3dprint/%E8%87%AA%E5%B7%B1%E7%9A%843d%E6%89%93%E5%8D%B0/IMG_5881.gif" width="1200">
 
 <img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/34c24908ab42fc2984bfe28b63fbf018150a7c54/images/3dprint/%E8%87%AA%E5%B7%B1%E7%9A%843d%E6%89%93%E5%8D%B0/7.jpg">
 
