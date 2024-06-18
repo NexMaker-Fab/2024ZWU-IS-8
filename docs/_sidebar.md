@@ -12,7 +12,9 @@
   - [4. processing](homework/processing.md)
   - [5. CAD](homework/cad.md)
   - [6. materials](homework/materials.md) 
-  - [7. 3D printer](homework/3d-print.md)   
+  - [7. 3D printer](homework/3d-print.md) 
+  - [8. CNC manufacture](homework/cnc.md) 
+  - [9. laser cutting](homework/laser-cutting.md)    
 - Final project
   - topic
   - innovation
