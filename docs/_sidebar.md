@@ -16,7 +16,7 @@
   - [8. CNC manufacture](homework/cnc.md) 
   - [9. laser cutting](homework/laser-cutting.md)    
 - Final project
-  - topic
+  - [topic](final-project/topic.md)
   - innovation
   - market
   - how to design 
