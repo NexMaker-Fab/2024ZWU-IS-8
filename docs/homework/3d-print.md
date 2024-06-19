@@ -161,6 +161,9 @@ The printing accuracy of Ultimaker S5 can reach 20 microns, providing excellent 
 
 <img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/34c24908ab42fc2984bfe28b63fbf018150a7c54/images/3dprint/%E8%87%AA%E5%B7%B1%E7%9A%843d%E6%89%93%E5%8D%B0/7.jpg">
 
+8. post-processing.
+
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/9ce9a02ba3685ab0ddfbedf26b76b27c54d1f5e0/images/3dprint/%E5%90%8E%E5%A4%84%E7%90%86%E5%B7%A5%E8%89%BA.gif" alt="CAD T2" width="1200">
 
 <h2 style="color: #e19cab;">Postprocess the surface</h2>
 <h3 style="color: #e19cab;">1. Basic steps:</h3>
