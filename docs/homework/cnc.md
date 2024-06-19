@@ -1,24 +1,85 @@
 <h1 style="color: #e19cab;">CNC manufacture</h1>
-<h2 style="color: #e19cab;">1. How to keep safty</h2>
-<h3 style="color: #e19cab;">Basic operation</h3>
+<h2 style="color: #e19cab;">1. CNC in indusrty: machine type, application, material</h2>
 
-- Operator training: 
-Operators are required to receive comprehensive training, including understanding and writing CNC code, operating and setting up machines, and basic machine maintenance. They also need to know what safe steps are and how to deal with potential problems.
+### <font size="3"><h3 style="color: #e19cab;">1. CNC milling machine</h3></font>
+CNC milling machines (or milling machines) are very similar to CNC milling machines in that they use multi blade cutting tools that rotate relative to the workpiece to create the desired parts. 
+- **Application:**
+Although CNC milling machines are usually used to **process hard metals and industrial grade materials**, they are more suitable for **cutting soft and delicate materials**, such as **plastic, wood and foam**, and are very suitable for **creating panels, plastic prototypes and molds for injection molding applications**.
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/7a61c2471f67bff9f2377e00e2918ea0c9acc996/images/CNC/CNC%E9%93%A3%E5%BA%8A.webp" alt="Arduino-input" width="1400">
 
-- Protective equipment: 
-Proper protective equipment ensures that operators do not come into contact with potentially hazardous objects such as rotating parts and cutting tools. These protective devices may include machine covers, partitions and automatic closing devices.
+<center>Haas Mini Mill CNC milling machine</center>
 
-- With proper design and obvious operation instructions: 
-Proper machine design ensures that only those who know how to operate the CNC machine can use it. Clear, visual indication labels and warning messages can also alert operators to safe operations.
+### <font size="3"><h3 style="color: #e19cab;">SOP</h3></font>
 
-- Risk assessment and management: 
-Conduct regular risk assessments to identify any possible risks and address them in a timely manner. Develop strict safety procedures and ensure that operators and maintainers follow them.
+- Preparation stage:
 
-- Regular maintenance and inspection: 
-The CNC machine is regularly maintained and inspected to ensure that it is operating as expected. Any parts that require repair or replacement should be dealt with immediately.
+Make sure you have gone through the necessary training and understand the equipment operating manual.
+Before starting the operation, check that the CNC milling machine has been cleaned and there is no visible damage.
+Before starting the machine, verify that the work area is safe and free of any objects that may interfere with operation.
 
-- Emergency treatment: 
-there is an emergency stop button or switch to quickly cut off the power supply in case of an emergency.
+- Device startup phase:
+
+Start the equipment correctly according to the Haas Mini Mill operating manual.
+Tools and workpieces can be prepared and loaded while waiting for the machine to warm up.
+
+- Using CNC system stages:
+
+Enter or load your CNC program.
+Verify that the tool path and other Settings are correct before starting the milling process.
+
+- In the sales stage:
+
+When you run the program, always look at the milling machine to make sure it is correct.
+If you find anything unusual, immediately pause the program and fix it as needed.
+
+- Completion and clean-up stages:
+
+After the workpiece is finished, shut down the machine and clean up the machine and work area.
+Put all tools and equipment back in place.
+
+**More details：**https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/operation.html
+
+
+
+### <font size="3"><h3 style="color: #e19cab;">2. CNC drilling machine</h3></font>
+CNC drilling machines are very similar to traditional drilling machines, as they use rotating cutting tools to machine holes on fixed workpieces. However, due to the reliance on CNC technology, CNC drilling machines are more precise and versatile than traditional drilling machines.
+- **Application:**
+CNC drilling machines can drill holes while achieving a precision tolerance of ± 0.001 millimeters. They are also compatible with **various materials, including metal, plastic, and wood**. In addition, the latest CNC drilling technology features a turret that can accommodate multiple drill bits and allows you to quickly move between them during the manufacturing process. So it is suitable for**manufacturing wheel hubs, gear blanks, and machined shafts**.
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/7a61c2471f67bff9f2377e00e2918ea0c9acc996/images/CNC/%E9%92%BB%E5%BA%8A.png" alt="Arduino-input" width="1200">
+
+<center>HAAS DM-1 drilling machine</center>
+
+### <font size="3"><h3 style="color: #e19cab;">SOP</h3></font>
+
+- Safety preparation:
+
+Ensure that you are wearing safe work clothes and that there are no loose objects on you that can be sucked into the machine. Make sure you are in a clean, well-lit work area.
+
+- Set coordinate system: 
+
+Select an appropriate coordinate system. This can be the machine's default coordinate system, or it can be your custom coordinate system.
+
+- Load tools and materials: 
+
+Safely load tools and set tool length compensation. Load and secure the workpiece.
+
+- Enter program: 
+
+Enter or load the program correctly. It can be programmed manually or loaded with CAD/ CAM-generated programs.
+
+- Validation and testing: 
+
+Before processing, the program is confirmed by empty running and computer simulation. Adjust cutting speed and feed speed.
+
+- Run the program: 
+
+After confirming that everything is ready, start running the program and monitor the process.
+
+**More details：**https://www.haascnc.com/zh/owners/pre-install-guide/mills-pre-install/DM-1.html
+
+Reference web： https://baijiahao.baidu.com/s?id=1774803998423791071&wfr=spider&for=pc
+
+<h2 style="color: #e19cab;">2. How to keep safty</h2>
 
 <h3 style="color: #e19cab;">Detail</h3>
 
@@ -50,61 +111,3 @@ Order.
 Reference web:
 1. https://www.tmt.com.tw/cht/news/precautions-for-safety-operation-of-cnc-lathe.html#:~:text=1.%20%E5%AE%89%E5%85%A8%E6%93%8D%E4%BD%9C%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85,%E4%B8%8D%E5%8F%AF%E8%B6%85%E8%B2%A0%E8%8D%B7%E5%8A%A0%E5%B7%A5%E3%80%82
 2. https://www.safehoo.com/Item/332371.aspx
-
-<h2 style="color: #e19cab;">2. CNC in indusrty: machine type, application, material</h2>
-
-### <font size="3"><h3 style="color: #e19cab;">1.CNC milling machine</h3></font>
-CNC milling machines (or milling machines) are very similar to CNC milling machines in that they use multi blade cutting tools that rotate relative to the workpiece to create the desired parts. 
-- **Application:**
-Although CNC milling machines are usually used to **process hard metals and industrial grade materials**, they are more suitable for **cutting soft and delicate materials**, such as **plastic, wood and foam**, and are very suitable for **creating panels, plastic prototypes and molds for injection molding applications**.
-<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/23c2c728475903442485251c50f0581d9c135d9e/images/CNC/CK6140%E6%95%B0%E6%8E%A7%E9%93%A3%E5%BA%8A.png" alt="Arduino-input" width="1200">
-
-<center>CK6140 CNC milling machine</center>
-
-### <font size="3"><h3 style="color: #e19cab;">2. CNC lathe</h3></font>
-CNC turning center, also known as CNC lathe. CNC lathes (or lathes) have similarities with CNC milling machines and milling machines; They have chucks and spindles, and rely on CNC technology. However, the working methods of these machines are completely opposite. On a CNC lathe, the chuck and spindle fix the workpiece onto a fixed cutting tool and rotate it. These machines typically have a 3-axis configuration and can achieve strict tolerances up to ± 4 μ m. 
-- **Application:**
-They are very suitable for **processing complex cylindrical shapes**. CNC lathes have high-quality turning processes, **including taper turning, hobbing, drilling, cutting, and slotting**. This machine can also **perform reaming, spot facing, spot facing, and thread cutting operations**. But as the workpiece becomes thicker, the accuracy of the CNC lathe will decrease.
-
-<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/23c2c728475903442485251c50f0581d9c135d9e/images/CNC/F-1%E7%B3%BB%E5%88%97CNC%E8%BD%A6%E5%BA%8A.png" alt="Arduino-input" width="1200">
-<center>CF-1 series CNC lathe</center>
-
-### <font size="3"><h3 style="color: #e19cab;">3.CNC laser cutting machine</h3></font>
-CNC laser cutting machines are similar to CNC milling machines in terms of their machinable shapes or feature types. A laser beam is a high-intensity beam of light. When focused on the workpiece, it will melt the workpiece until a notch is formed. CNC technology controls the movement sequence of the laser cutting head (and laser beam) until the required customized parts are manufactured.
-- **Application:**
- The CNC laser cutting machine has a **high level of cutting accuracy** and is very suitable for **cutting various materials**, including **metal, plastic, and hardwood**. In addition, their extremely high precision makes them very suitable for ****machining brand name and logo into CNC milling or turning parts**.
-
-<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/23c2c728475903442485251c50f0581d9c135d9e/images/CNC/TBS-UV350%E5%8D%95%E5%B9%B3%E5%8F%B0%E7%9A%AE%E7%A7%92-%E7%BA%B3%E7%A7%92%E6%BF%80%E5%85%89%E5%88%87%E5%89%B2%E6%9C%BA.png" alt="Arduino-input" width="1200">
-<center>CF-1 series CNC lathe
-TBS-UV350 single platform picosecond nanosecond laser cutting machine</center>
-
-### <font size="3"><h3 style="color: #e19cab;">4.CNC plasma cutting machine</h3></font>
-CNC plasma cutting machines provide high-level cutting accuracy and wide material compatibility. The plasma torch generates high-power plasma (or charged gas) with a temperature of up to 50000 ° F. As long as any material has conductivity, this enormous heat energy can seamlessly cut it.
-- **Application:**
-CNC plasma cutting machines are widely used in the processing of metal materials, which can efficiently ********cut various metal materials such as steel, iron, stainless steel, aluminum, copper, ferrite, etc**. They are commonly used in **metal sheets, automotive parts, pressure vessels, power equipment, petrochemical and chemical industries**, and other fields. It can also easily **cut various complex alloy materials**, especially high-strength materials such as titanium alloys, nickel alloys, aluminum magnesium alloys, etc., providing reliable material processing methods for **aviation, aerospace, marine engineering** and other fields.
-
-<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/23c2c728475903442485251c50f0581d9c135d9e/images/CNC/%E7%91%9E%E5%87%8C%20RILAND%20%E7%AD%89%E7%A6%BB%E5%AD%90%E5%88%87%E5%89%B2%E6%9C%BA.png" alt="Arduino-input" width="1200">
-
-<center>CF-1 series CNC lathe
-Ruiling RILAND plasma cutting machine</center>
-
-### <font size="3"><h3 style="color: #e19cab;">5.CNC water jet cutting machine</h3></font>
-CNC water jet cutting machines use high-pressure water jets (or mixtures of water and abrasive materials) to cut materials. Computer CNC technology controls the movement sequence of water jets to create the required finished parts.
-CNC water jet cutting machines are very similar to CNC plasma and laser cutting machines because they do not require machine tools. 
-- **Application:**
-Unlike CNC plasma and laser cutting machines, CNC water jet cutting machines are particularly suitable for 
-**processing low thermal resistance materials such as aluminum and plastics**. "Low thermal resistance" refers to the easy melting of materials when exposed to high temperatures.
-<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/23c2c728475903442485251c50f0581d9c135d9e/images/CNC/DWJ1313FB%20%E4%B8%89%E8%BD%B4%E6%82%AC%E8%87%82%E6%B0%B4%E5%88%87%E5%89%B2%E6%9C%BA.pngg" alt="Arduino-input" width="1200">
-
-<center>CF-1 series CNC lathe
-DWJ1313FB three-axis cantilever water cutting machine</center>
-
-### <font size="3"><h3 style="color: #e19cab;">6. CNC drilling machine</h3></font>
-CNC drilling machines are very similar to traditional drilling machines, as they use rotating cutting tools to machine holes on fixed workpieces. However, due to the reliance on CNC technology, CNC drilling machines are more precise and versatile than traditional drilling machines.
-- **Application:**
-CNC drilling machines can drill holes while achieving a precision tolerance of ± 0.001 millimeters. They are also compatible with **various materials, including metal, plastic, and wood**. In addition, the latest CNC drilling technology features a turret that can accommodate multiple drill bits and allows you to quickly move between them during the manufacturing process. So it is suitable for**manufacturing wheel hubs, gear blanks, and machined shafts**.
-<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/23c2c728475903442485251c50f0581d9c135d9e/images/CNC/ZK5140%E6%95%B0%E6%8E%A7%E7%AB%8B%E5%BC%8F%E9%92%BB%E5%BA%8A.png" alt="Arduino-input" width="1200">
-<center>CF-1 series CNC lathe
-ZK5140 CNC vertical drilling machine
-
-Reference web： https://baijiahao.baidu.com/s?id=1774803998423791071&wfr=spider&for=pc

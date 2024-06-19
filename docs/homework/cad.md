@@ -147,8 +147,8 @@ In addition, you can also visit some other resources, such as:
 1. Select a file to convert to a project drawing
 <div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/1.jpg"></div>
 
-2. Select parts and export them horizontally
-<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/2.jpg"></div>
+2. Select parts and export them horizontally and Create a local view. Select key objects to view
+<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/2.jpg"></div><div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/6.jpg"></div>
 
 3. Select the visible edge style and the appropriate zoom ratio
 <div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/3.jpg"></div>
@@ -157,13 +157,7 @@ In addition, you can also visit some other resources, such as:
 <div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/4.jpg"></div>
 
 5. Use the dimensioning to select the size to be marked
-<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/5.jpg"></div>
+<div><img width="1000" src="https://cdn.jsdelivr.net/gh/HARLAN1LAN/imageuploadservice/img/d1a4bca05d29ddf58e259a3c1236132.png"></div>
 
-6. Create a local view. Select key objects to view
-<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/6.jpg"></div>
 
-7. Export the engineering drawing file
-<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/28f6457b9f7df60aec0137da80475426dcea13f0/images/CAD/Engineering%20Drawing/7.jpg"></div>
-
-<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/28f6457b9f7df60aec0137da80475426dcea13f0/images/CAD/Engineering%20Drawing/8.jpg"></div>
  
