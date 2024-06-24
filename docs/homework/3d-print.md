@@ -129,7 +129,7 @@ The printing accuracy of Ultimaker S5 can reach 20 microns, providing excellent 
 - [KAV Portola: 3D printed bicycle helmet](https://baijiahao.baidu.com/s?id=1787724790228222504&wfr=spider&for=pc)
 
 
-<h2 style="color: #e19cab;">Use slice software to setting parameter and Use 3D printer to manufacture it</h2>
+<h2 style="color: #e19cab;">2. Use slice software to setting parameter and Use 3D printer to manufacture it</h2>
 
 1. Choose a printer, the model we choose is Anycubic Vyper.
 
@@ -165,44 +165,48 @@ The printing accuracy of Ultimaker S5 can reach 20 microns, providing excellent 
 
 <img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/9ce9a02ba3685ab0ddfbedf26b76b27c54d1f5e0/images/3dprint/%E5%90%8E%E5%A4%84%E7%90%86%E5%B7%A5%E8%89%BA.gif" alt="CAD T2" width="1200">
 
-<h2 style="color: #e19cab;">Postprocess the surface</h2>
-<h3 style="color: #e19cab;">1. Basic steps:</h3>
+<h2 style="color: #e19cab;">3. Post treatment process of materials</h2>
 
-- This cleaning step can be done manually by soaking the parts in the solution, or by using an automated machine, stirring the liquid for a pre-set time. The simplest and most effective cleaning workflow is detailed below. This step prepares you for secondary processing such as painting, dyeing, smoothing or polishing.
+**customized nylon carbon fiber material**
+KAV Sports has partnered with Jabil in Florida, USA to create a bicycle helmet called "KAV Portola" using carbon customized engineering materials and additive manufacturing technology. This helmet is made of **customized nylon carbon fiber material**, which is both hard and tough, flexible enough, and can also adapt to high and low temperatures. In addition to providing excellent energy absorption performance, this material can also increase the adhesion between layers to achieve consistent performance and improve appearance.
 
-<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/e7e202ee94103a6653ed821df57cc3909b0d0a84/images/3dprint/%E6%B8%85%E6%B4%97.gif" width="1200">
+1. **Clean the surface** 
+Remove any dust or debris that may adhere. You can use soap and water to gently clean and then thoroughly dry.
 
-- Sanding and polishing: Remove rough surfaces from printed objects for a smooth appearance. Here's the work. Use sandpaper or a grinding wheel. Remember to protect your eyes and skin from damage caused by the tiny particles you sand.
+2. **Polishing:**
+Due to the possible roughness of the surface printed on nylon carbon fiber, polishing may be necessary. You can start with wet sandpaper and gradually transition to finer sandpaper. It should be noted that the polishing process will generate dust, so please ensure that it is carried out in a well ventilated area and wear appropriate protective equipment.
 
-<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/e7e202ee94103a6653ed821df57cc3909b0d0a84/images/3dprint/%E6%89%93%E7%A3%A8.gif" width="1200">
+3. **Coating:**
+By adding coatings to provide additional durability and aesthetics. Various coatings can be used, including varnish, spray paint, or specialized 3D printing coatings. Before coating, ensure that the printed surface is dry, clean, and free of grease.
 
-- Fill and repair: Fill and repair with a plastic repair agent or a blur file to improve the smoothness of the surface and cover up any small cracks or RIPS.
+4. **Hardening:**
+ In some cases, heat treatment may be required to harden nylon carbon fiber printed parts. This usually involves placing the printed piece in an oven and heating it at a controlled temperature for a period of time.
 
-<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/e7e202ee94103a6653ed821df57cc3909b0d0a84/images/3dprint/%E4%BF%AE%E8%A1%A5.png" width="1200">
+5. **Inspection:** 
+Finally, make sure to inspect the printed parts to ensure that there are no defects or weaknesses, including checking for any possible cracks, wear, or other damage.
 
-- Spray paint or color: If you want your printed object to have a specific color or adhesive layer, or to prevent erosion from the external environment, you can spray paint or color it.
+<h2 style="color: #e19cab;">4. Read gcode</h2>
 
-<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/e7e202ee94103a6653ed821df57cc3909b0d0a84/images/3dprint/%E7%9D%80%E8%89%B2.jpeg" width="1200">
+1.Put our model(stl./obj. format) into cura：
 
-- Surface treatment: Surface treatments such as atomization, metallization or plating can give 3D printed parts a high-quality, unique feel and look.
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/8e4dc1e6316eb3cff49e4be74409d1c610a65b9c/images/3dprint/%E6%89%93%E5%BC%80%E6%96%87%E4%BB%B6%E8%BF%9Bcura.png" alt="Gcode" width="1200">
 
-<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/e7e202ee94103a6653ed821df57cc3909b0d0a84/images/3dprint/%E9%95%80%E5%B1%82.png" width="1200">
+2.Choose ‘Start Slicing’, and the click’ Slice Preview’(Preview of the first layer of effects):
 
-- Testing and inspection: This is a key step in confirming that the printed object meets the expected performance and quality requirements. Inspection can include visual inspection, precision measurement and mechanical testing.
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/421c3fa163f90d0922868806ec462e517c853486/images/3dprint/%E7%AC%AC%E4%B8%80%E5%B1%8211.png" width="1200">
 
-<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/297638e6a99af812938b5888e872df7adf5a9cba/images/3dprint/%E5%90%8E%E5%A4%84%E7%90%86.jpeg" width="1200">
+3.Put the G-code for the first layer into NC Viewer:
 
-<h3 style="color: #e19cab;">2. Post-treatment of different materials:</h3>
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/97c859c59e0a3e538af67cb44e1a01cb28e4b69b/images/3dprint/NC%E6%9F%A5%E7%9C%8B%E5%99%A8%E7%AC%AC%E4%B8%80%E5%B1%82.png" alt="Gcode" width="1200">
 
-- PLA: PLA is the most commonly used 3D printing material in home and educational Settings because it is easy to print and environmentally friendly. Post-treatment of PLA may include sanding, painting or coating. However, because PLA is relatively brittle, it is not suitable for excessive polishing.
-- ABS: ABS is a more powerful plastic that can withstand more post-processing such as grinding, sanding and painting. Ethyl acetate steam grinding is a common method to give ABS finished products a smooth and shiny surface.
-- Nylon: Nylon is a durable and flexible material that is often used in parts that need to withstand stress. Nylon generally needs to be cleaned with alcohol to remove any uncured material and can be sanded and dyed.
-- Resin: Photocured resin printing needs to be cleaned (usually with alcohol) and photocured to get the final result. Further sanding and painting may be required for best results.
-- Metal: Printing metal parts often requires additional post-processing, including removal of support structures, heat treatment to increase strength, surface grinding, or electrical discharge machining.
+4.Gcode simulation for first layer:
 
-Reference web: 
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/8e4dc1e6316eb3cff49e4be74409d1c610a65b9c/images/3dprint/%E7%AC%AC%E4%B8%80%E5%B1%82%E5%9B%BE%E7%89%87.png" alt="Gcode" width="1200">
 
-1. https://formlabs3d.cn/blog/post-processing-and-finishing-sla-prints/
-2. https://www.3ddayin.net/3Ddayinbaike/45354.html
-3. https://www.youtube.com/watch?v=6ejjh0GdyDc&t=4s
-4. https://formlabs3d.cn/blog/sls-post-processing-media-blasting/
+5.Preview of the second layer of effects:
+
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/421c3fa163f90d0922868806ec462e517c853486/images/3dprint/%E7%AC%AC%E4%BA%8C%E5%B1%82.png" alt="Gcode" width="1200">
+
+6.Gcode simulation for second layer:
+
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/421c3fa163f90d0922868806ec462e517c853486/images/3dprint/%E7%AC%AC%E4%BA%8C%E5%B1%82%E5%B9%B3%E9%9D%A2%E5%9B%BE.png" alt="Gcode" width="1200">
