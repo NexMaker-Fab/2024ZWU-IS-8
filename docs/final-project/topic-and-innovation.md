@@ -5,7 +5,7 @@
 </p>
 
 
-### Ensure healthy lifestyles and promote well-being at all ages (3.4 By 2030, reduce premature deaths from non-communicable diseases by one third through prevention, treatment and promotion of physical and mental health)
+<h3 style="color: #e19cab;">Ensure healthy lifestyles and promote well-being at all ages (3.4 By 2030, reduce premature deaths from non-communicable diseases by one third through prevention, treatment and promotion of physical and mental health)</h3>
 
 <p align="center">
   <img width="100" height="100" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/23c2c728475903442485251c50f0581d9c135d9e/images/FINAL/%E4%B8%8B%E7%AE%AD%E5%A4%B4.png">

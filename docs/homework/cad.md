@@ -148,16 +148,15 @@ In addition, you can also visit some other resources, such as:
 <div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/1.jpg"></div>
 
 2. Select parts and export them horizontally and Create a local view. Select key objects to view
-<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/2.jpg"></div><div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/6.jpg"></div>
+<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/2.jpg"></div><div>
 
 3. Select the visible edge style and the appropriate zoom ratio
 <div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/3.jpg"></div>
 
 4. Build a projection view and select main view, top view, left view, and overall view
-<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c8184fba034d9742af0c66d117608129ff10bfef/images/CAD/Engineering%20Drawing/4.jpg"></div>
 
 5. Use the dimensioning to select the size to be marked
-<div><img width="1000" src="https://cdn.jsdelivr.net/gh/HARLAN1LAN/imageuploadservice/img/d1a4bca05d29ddf58e259a3c1236132.png"></div>
+<div><img width="1000" src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/3da6f45dba0210c1cf7305aca9edb4588b6011af/images/CAD/cad5.jpg"></div>
 
 
  

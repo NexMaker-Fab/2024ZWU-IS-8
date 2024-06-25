@@ -58,8 +58,6 @@ Ensure that the laser cutter has been properly installed and calibrated, and tha
 <h3 style="color: #e19cab;">2.To adjust the focus:</h3>
 Make sure the focus of the laser head is properly adjusted to the acrylic surface. Typically, the focus is a few millimeters above the surface of the material, which ensures the best cutting results.
 
-![Pigo](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/%E6%88%AA%E5%B1%8F2024-06-18%2008.42.51.png)
-
 <h3 style="color: #e19cab;">3.To cut:</h3>
 Place the prepared acrylic sheet on the working platform of the laser cutting machine and fix it to prevent movement.Start the laser cutting machine to ensure the safety of the operating area and avoid touching the moving laser beam.
 
@@ -93,7 +91,7 @@ Start the cutting process as instructed by the laser cutting machine software.Mo
 
 Reference website：https://www.youtube.com/watch?v=b4PGRHn_nOU
 
-<h3 style="color: #e19cab;">Acrylic：</h3>
+<h3 style="color: #e19cab;">Cardboard：</h3>
 <h3 style="color: #e19cab;">1. Preparation:</h3>
 · Material selection: Choose stable quality paper or cardboard, avoid using too thin or flammable materials.
 · Prepare paper or board material suitable for laser cutting, ensuring that the surface is flat and free of creases or dirt.

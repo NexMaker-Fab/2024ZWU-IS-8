@@ -14,11 +14,12 @@
   - [6. materials](homework/materials.md) 
   - [7. 3D printer](homework/3d-print.md) 
   - [8. CNC manufacture](homework/cnc.md) 
-  - [9. laser cutting](homework/laser-cutting.md)    
+  - [9. laser cutting](homework/laser-cutting.md)  
+  - [10. IoT](homework/IoT.md)   
 - Final project
-  - [topic](final-project/topic.md)
-  - innovation
-  - market
-  - how to design 
-  - how to make
-  - SDGs
+  - [topic&innovation](final-project/topic-and-innovation.md)
+  - [work flow](final-project/workflow.md)
+  - [project introduce](final-project/project-introduce.md)
+  -  
+  - 
+  - 
