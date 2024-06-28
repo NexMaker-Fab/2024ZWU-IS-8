@@ -20,6 +20,7 @@
   - [topic&innovation](final-project/topic-and-innovation.md)
   - [work flow](final-project/workflow.md)
   - [project introduce](final-project/project-introduce.md)
-  -  
-  - 
-  - 
+  - [interaction](final-project/Interaction-effect.md)
+  - [material](final-project/material.md)
+  - [technical scheme](final-project/Technical-scheme.md)
+  - [final project](final-project/final.md)

@@ -418,7 +418,7 @@ Finally, make sure to inspect the printed parts to ensure that there are no defe
 
 
 
-<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/8e4dc1e6316eb3cff49e4be74409d1c610a65b9c/images/3dprint/%E7%AC%AC%E4%B8%80%E5%B1%82%E5%9B%BE%E7%89%87.png" alt="Gcode" width="1200">
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/645f0e0f108a7466287ceccc69c4733e8f962f3b/images/3dprint/gcode%E7%AC%AC%E4%B8%80%E5%BC%A0.png" alt="Gcode" width="1200">
 
 
 
